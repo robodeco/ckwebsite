@@ -1,4 +1,4 @@
 # ckwebsite
-Personal portfolio website in progress! 
+Personal portfolio website in development! 
 
-Please check out the deployed version to follow along with where I'm at! 
+Please check out the deployed version at https://robodeco.github.io/ckwebsite/ to follow along with my progress! 
