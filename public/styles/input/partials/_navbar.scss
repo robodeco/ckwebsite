@@ -1,0 +1,10 @@
+$fullsize: 50px;
+
+.navbar {
+  position: fixed;
+  z-index: 5;
+  top: 0px;
+  background-color: blue;
+  height: $fullsize;
+  width: 100%;
+}

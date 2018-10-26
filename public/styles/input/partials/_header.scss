@@ -1,0 +1,22 @@
+$desk-img: url('../../images/desk.jpg');
+
+.header {
+  background-image: $desk-img;
+  height: 500px;
+  margin-top: 55px;
+}
+
+.header_parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcomeBox {
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  opacity: .5;
+  font-size: 50pt;
+}
