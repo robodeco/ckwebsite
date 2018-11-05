@@ -1,22 +1,52 @@
-$desk-img: url('../../images/desk.jpg');
+$logo-img: url('../../images/logo-me-big.png');
 
 .header {
-  background-image: $desk-img;
-  height: 500px;
-  margin-top: 55px;
+  background-image: $logo-img;
+  background-color: #F5CF1A;
+  height: 55vw;
+  overflow: auto;
 }
 
 .header_parallax {
   background-attachment: fixed;
-  background-position: center;
+  background-position: center top 55%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 300px 300px;
 }
 
-.welcomeBox {
-  width: 200px;
-  height: 200px;
-  text-align: left;
-  opacity: .5;
-  font-size: 50pt;
+.nameBox {
+  display: inline-flex;
+  flex-direction: column;
+  width: 375px;
+  text-align: right;
+  margin-left: 10%;
+  margin-top: 150px;
+}
+
+.nameHead {
+  width: 100%;
+  font-size: 5vw;
+  margin: 0;
+}
+
+.subBox {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin-right: 15%;
+  margin-top: 165px;
+}
+
+.titleSubH {
+  font-size: 3vw;
+  margin: 0;
+}
+
+#warning {
+  font-size: 25px;
+  margin-top: 70px;
+  margin-left: auto;
+  text-align: center;
 }

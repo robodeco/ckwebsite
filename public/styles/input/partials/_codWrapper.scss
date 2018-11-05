@@ -1,7 +1,26 @@
 .codWrapper {
   min-height: 250px;
-  background-color: teal;
+  background-color: white;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+#codP {
+  margin: auto;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+#gitLink {
+  color: red;
+  text-decoration: none;
+}
+
+#gitLink:visited {
+  color: red;
+}
+
+#gitLink:hover {
+  color: black;
 }
