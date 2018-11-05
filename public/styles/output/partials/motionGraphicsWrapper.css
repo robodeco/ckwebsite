@@ -1,6 +1,5 @@
 .motionGraphicsWrapper {
   min-height: 250px;
-  background-color: teal;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

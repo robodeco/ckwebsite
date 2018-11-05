@@ -1,10 +1,31 @@
 $fullsize: 50px;
 
 .navbar {
-  position: fixed;
-  z-index: 5;
-  top: 0px;
-  background-color: blue;
+  background-color: black;
+  // border: 2px solid white;
+  color: white;
+  display: flex;
+  flex-direction: row;
   height: $fullsize;
+  position: fixed;
+  top: 0px;
   width: 100%;
+  z-index: 5;
+}
+
+.navChild {
+  margin: auto;
+}
+
+.pageJump {
+  text-decoration: none;
+  color: white;
+}
+
+.pageJump:visited {
+  color: white
+}
+
+.pageJump:hover {
+  color: #F5CF1A
 }
