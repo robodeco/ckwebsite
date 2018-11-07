@@ -18,7 +18,7 @@ You may find my roadmap below:
 <li>Clean up folder structure if necessary</li>
 <li>Implement email-sending functionality if possible</li>
 <li>add reset css and cross-browser testing; fix bugs if necessary</li>
-
+<br>
 
 Projected completion time: 1 month
 
