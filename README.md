@@ -10,13 +10,13 @@ You may find my roadmap below:
 <li>Add 'About Me' section </li>
 <li>Add 'Contact' section </li>
 <li>Adjust all fonts in accordance with brand</li>
-<li>Implement css transitions and transformations<li>
+<li>Implement css transitions and transformations</li>
 <li>Fix video quality</li>
-<li>Include lightbox descriptions and titles<li>
+<li>Include lightbox descriptions and titles</li>
 <li>Implement footer containing technologies used and corresponding logos</li>
 <li>Add breakpoints for full browser responsiveness</li>
 <li>Clean up folder structure if necessary</li>
-<li>Implement email-sending functionality if possible<li>
+<li>Implement email-sending functionality if possible</li>
 <li>add reset css and cross-browser testing; fix bugs if necessary</li>
 
 Projected completion time: 1 month
