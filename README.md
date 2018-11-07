@@ -19,6 +19,7 @@ You may find my roadmap below:
 <li>Implement email-sending functionality if possible</li>
 <li>add reset css and cross-browser testing; fix bugs if necessary</li>
 
+
 Projected completion time: 1 month
 
 Technologies utilized include HTML5/CSS3, jQuery, Bootstrap, SASS, cloudinary, and baguettebox.js.
