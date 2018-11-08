@@ -6,14 +6,97 @@ html, body {
   width: 100%;
 }
 
-.header {
-  background-image: url("../../images/logo-me-big.png");
+img {
+  background-color: none;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+.gutter {
+  height: 50px;
+}
+
+.sectionTitle {
+  width: 100%;
+  height: 15px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "BebasNeue Light";
+  src: url("../fonts/BebasNeueLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BebasNeue Regular";
+  src: url("../fonts/BebasNeueRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BebasNeue Bold";
+  src: url("../fonts/BebasNeueBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DolceVita";
+  src: url("../fonts/DolceVita.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DecoTech";
+  src: url("../fonts/DecoTech.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DecoTechTL";
+  src: url("../fonts/DecoTechTL.ttf") format("truetype");
+}
+#codTop {
+  width: 100%;
+  height: 50px;
+}
+
+#codHeader {
+  margin-bottom: 100px;
+}
+
+.codWrapper {
+  height: 100vh;
+  background-color: white;
+  margin-top: 50px;
+}
+
+#codText {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#gitLink {
+  color: red;
+  text-decoration: none;
+}
+
+#gitLink:visited {
+  color: red;
+}
+
+#gitLink:hover {
+  color: black;
+}
+
+.footer {
+  height: 100px;
   background-color: #F5CF1A;
-  height: 55vw;
+}
+
+.header {
+  background-color: #F5CF1A;
+  height: 100vh;
   overflow: auto;
+  overflow-y: hidden;
 }
 
 .header_parallax {
+  background-image: url("../../images/logo-me-big.png");
   background-attachment: fixed;
   background-position: center top 55%;
   background-repeat: no-repeat;
@@ -21,28 +104,30 @@ html, body {
 }
 
 .nameBox {
-  display: inline-flex;
+  font-family: "DecoTech";
+  display: flex;
+  float: left;
   flex-direction: column;
   width: 375px;
   text-align: right;
-  margin-left: 10%;
-  margin-top: 150px;
+  margin-left: 12%;
+  margin-top: 20%;
 }
 
 .nameHead {
   width: 100%;
-  font-size: 5vw;
+  font-size: 7vw;
   margin: 0;
 }
 
 .subBox {
-  display: inline-flex;
+  font-family: "DolceVita";
+  display: flex;
   flex-direction: column;
   width: 300px;
-  height: 300px;
   float: right;
-  margin-right: 15%;
-  margin-top: 165px;
+  margin-right: 16%;
+  margin-top: 23%;
 }
 
 .titleSubH {
@@ -57,7 +142,48 @@ html, body {
   text-align: center;
 }
 
-.navbar {
+.lightbox {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.lightbox-gal__img {
+  margin: 5px;
+  object-fit: contain;
+}
+
+.lightbox::-webkit-scrollbar {
+  width: 2px;
+}
+
+.lightbox::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.lightbox::-webkit-scrollbar-thumb {
+  background-color: lightgrey;
+}
+
+#lightboxHeader {
+  height: 50px;
+  text-align: center;
+}
+
+#mogrHeader {
+  height: 50px;
+  text-align: center;
+}
+
+.motionGraphicsWrapper {
+  min-height: 250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.navbarSticky {
   background-color: black;
   color: white;
   display: flex;
@@ -86,99 +212,65 @@ html, body {
   color: #F5CF1A;
 }
 
-#lightboxHeader {
-  height: 50px;
-  text-align: center;
+.btnWrap {
+  margin-left: 42%;
+  margin-top: 38.5%;
 }
 
-.lightbox {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  overflow-x: scroll;
+.btnWrap2 {
+  margin-left: 42%;
 }
 
-.lightbox-gal__img {
-  margin: 5px;
-  object-fit: contain;
+.smoothScrl {
+  background-color: none;
 }
 
-.lightbox::-webkit-scrollbar {
-  width: 2px;
+.scrlDwn {
+  background-image: url("../../images/half-circle-btn-down.png");
 }
 
-.lightbox::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3);
+.scrlDwn:hover {
+  background-image: url("../../images/half-circle-btn-down_inv.png");
+  transform: scale(1.15);
+  transform-origin: bottom center;
+  transition: 0.3s ease-in-out;
 }
 
-.lightbox::-webkit-scrollbar-thumb {
-  background-color: lightgrey;
-}
-
-#mogrHeader {
-  height: 50px;
-  text-align: center;
-}
-
-.motionGraphicsWrapper {
-  min-height: 250px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-#codHeader {
-  width: 100%;
-  height: 50px;
-}
-
-#codTitle {
-  text-align: center;
-}
-
-.codWrapper {
-  min-height: 250px;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-#codP {
-  margin: auto;
-  margin-bottom: 35px;
-  text-align: center;
-}
-
-#gitLink {
-  color: red;
-  text-decoration: none;
-}
-
-#gitLink:visited {
-  color: red;
-}
-
-#gitLink:hover {
-  color: black;
-}
-
-.footer {
-  height: 100px;
-  background-color: #F5CF1A;
+.scrollBtn {
+  display: inline-block;
+  text-indent: -9999px;
+  width: 250px;
+  height: 150px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.2s ease-in-out;
 }
 
 .video-player {
-  min-width: 250px;
-  min-height: 156px;
-  display: inline;
-  margin: auto;
-  padding: 5px;
+  width: 100%;
+  display: inline-flex;
 }
 
 .video-player__dimensions {
-  width: 250px;
   max-height: 150px;
+}
+
+.videoRow {
+  align-content: center;
+  text-align: center;
+  height: 32vh;
+}
+
+.repLink {
+  color: white;
+  text-align: center;
+  background-color: orange;
+  padding-left: 155px;
+  padding-right: 155px;
+  display: inline-block;
+  text-decoration: none;
+  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

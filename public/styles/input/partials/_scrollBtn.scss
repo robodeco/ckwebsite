@@ -1,0 +1,38 @@
+// $upBt: url('../../images/half-circle-btn-up.png');
+$dnBt: url('../../images/half-circle-btn-down.png');
+$dnBt_inv: url('../../images/half-circle-btn-down_inv.png');
+
+.btnWrap {
+  margin-left: 42%;
+  margin-top: 38.5%;
+}
+
+.btnWrap2 {
+  margin-left: 42%;
+}
+
+.smoothScrl {
+  background-color: none;
+}
+
+.scrlDwn {
+  background-image: $dnBt;
+}
+
+.scrlDwn:hover {
+  background-image: $dnBt_inv;
+  transform: scale(1.15);
+  transform-origin: bottom center;
+  transition: .3s ease-in-out;
+}
+
+.scrollBtn {
+  display: inline-block;
+  text-indent: -9999px;
+  width: 250px;
+  height: 150px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: .2s ease-in-out;
+}
