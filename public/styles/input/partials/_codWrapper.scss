@@ -1,14 +1,12 @@
 .codWrapper {
-  min-height: 250px;
+  height: 100vh;
   background-color: white;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  margin-top: 50px;
 }
 
-#codP {
+#codText {
+  width: 100%;
   margin: auto;
-  margin-bottom: 35px;
   text-align: center;
 }
 

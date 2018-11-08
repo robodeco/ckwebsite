@@ -4,3 +4,61 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+img {
+  background-color: none;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+.gutter {
+  height: 50px;
+}
+
+.sectionTitle {
+  width: 100%;
+  height: 15px;
+  text-align: center;
+}
+
+
+@font-face {
+  font-family: "BebasNeue Light";
+  src: url("../fonts/BebasNeueLight.ttf")format("truetype");
+}
+
+@font-face {
+  font-family: "BebasNeue Regular";
+  src: url("../fonts/BebasNeueRegular.ttf")format("truetype");
+}
+
+@font-face {
+  font-family: "BebasNeue Bold";
+  src: url("../fonts/BebasNeueBold.ttf")format("truetype");
+}
+
+@font-face {
+  font-family: "DolceVita";
+  src: url("../fonts/DolceVita.ttf")format("truetype");
+}
+
+@font-face {
+  font-family: "DecoTech";
+  src: url("../fonts/DecoTech.ttf")format("truetype");
+}
+
+@font-face {
+  font-family: "DecoTechTL";
+  src: url("../fonts/DecoTechTL.ttf")format("truetype");
+}
+
+
+
+// @font-face {
+//   font-family: "bignoodletoooblique";
+//   src: url("fonts/bignoodletoo.woff")format('woff'),
+//        url("fonts/bignoodletoo.ttf")format('truetype');
+// }
