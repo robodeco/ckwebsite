@@ -1,23 +1,27 @@
-.lightbox {
-  width: 100%;
+.lbWrapper {
+  height: 100vh;
+  width: 80vw;
   margin: auto;
-  display: flex;
-  overflow-x: scroll;
 }
 
-.lightbox-gal__img {
+.lbSubHead {
+  margin-top: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.lightbox {
+  margin: auto;
+  display: block;
+  overflow-x: scroll;
+  text-align: center;
+}
+
+.lightbox a {
+  width: 140px;
+  height: 140px;
+  display: inline-block;
+  overflow: hidden;
   margin: 5px;
   object-fit: contain;
-}
-
-.lightbox::-webkit-scrollbar {
-    width: 2px;
-}
-
-.lightbox::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3);
-}
-
-.lightbox::-webkit-scrollbar-thumb {
-  background-color: lightgrey;
 }

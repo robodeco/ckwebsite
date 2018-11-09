@@ -1,6 +1,9 @@
-.video-player {
+.video-playerWrap {
   width: 100%;
+  max-width: 350px;
   display: inline-flex;
+  height: 160px;
+
 }
 
 .video-player__dimensions {
@@ -10,15 +13,14 @@
 .videoRow {
   align-content: center;
   text-align: center;
-  height: 32vh;
+  margin-bottom: 25px;
 }
 
 .repLink {
   color: white;
   text-align: center;
   background-color: orange;
-  padding-left: 155px;
-  padding-right: 155px;
+  width: 100%;
   display: inline-block;
   text-decoration: none;
   margin: auto;

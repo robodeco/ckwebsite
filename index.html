@@ -5,87 +5,274 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CK Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="./public/styles/output/styles.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.css" rel="stylesheet">
   <script src="https://unpkg.com/cloudinary-core/cloudinary-core-shrinkwrap.min.js" type="text/javascript"></script>
   <script src="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="./public/styles/output/styles.css">
 </head>
 
 <body>
-  <div class="navbarSticky">
-    <div class="navChild"><a class="pageJump" href="#top">top</a></div>
-    <div class="navChild"><a class="pageJump" href="#codTop">coding samples</a></div>
-    <div class="navChild"><a class="pageJump" href="#lightboxHeader">design portfolio</a></div>
-    <div class="navChild"><a class="pageJump" href="#mogrHeader">motion graphics</a></div>
-    <div class="navChild">about me</div>
-    <div class="navChild">contact</div>
-  </div>
+  <div class="container-fluid">
+    <div class="navbarSticky">
+      <div class="navChild"><a class="pageJump" href="#top">top</a></div>
+      <div class="navChild"><a class="pageJump" href="#codTop">coding samples</a></div>
+      <div class="navChild"><a class="pageJump" href="#lbTop">design portfolio</a></div>
+      <div class="navChild"><a class="pageJump" href="#mogrTop">motion graphics</a></div>
+      <div class="navChild">about me</div>
+      <div class="navChild">contact</div>
+    </div>
 
-    <div class="row">
-      <div class="header header_parallax" id="top">
-        <div>
-        <p id="warning"><b>warning:</b> still under construction, and not optimized for responsiveness! please view with a computer for the time being.</p>
+      <div class="row">
+        <div class="header header_parallax" id="top">
+          <div>
+          <p id="warning"><b>warning:</b> still under construction, and not optimized for responsiveness! please view with a computer for the time being.</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="nameBox">
+              <h1 class="nameHead">Christopher Katalinas</h1>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="subBox">
+              <h4 class="titleSubH">Developer</h4>
+              <h4 class="titleSubH">Designer</h4>
+              <h4 class="titleSubH">Illustrator</h4>
+              <h4 class="titleSubH">Robot</h4>
+              </div>
+          </div>
+          <!-- <div class="row"> -->
+          <div class="btnWrap">
+              <a class="scrollBtn smoothScrl scrlDwn" href="#codTop">text</a>
+          </div>
+        <!-- </div> -->
         </div>
-        <div class="col-lg-6">
-          <div class="nameBox">
-            <h1 class="nameHead">Christopher Katalinas</h1>
+      </div>
+
+  <!-- start of coding demos -->
+    <div class="row gutter" id="codTop"></div>
+      <div class="row" id="codHRow">
+        <div class="col">
+          <div class="sectionTitle" id="codHeader">
+            <h2>Coding Samples</h2>
+            <p>To view more of my projects in progress, please visit my github <a href="https://github.com/robodeco?tab=repositories" target="_blank" id="gitLink">here</a>
+            </p>
           </div>
         </div>
-        <div class="col-lg-6">
-          <div class="subBox">
-            <h4 class="titleSubH">Developer</h4>
-            <h4 class="titleSubH">Designer</h4>
-            <h4 class="titleSubH">Illustrator</h4>
-            <h4 class="titleSubH">Robot</h4>
+      </div>
+
+    <div class="codWrapper">
+      <div class="row">
+          <div class="row videoRow">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-3">
+              <div class="video-playerWrap">
+                <video
+                  id="hangman-player"
+                  controls
+                  data-cld-public-id
+                  class="cld-video-player cld-video-player-skin-dark video-player__dimensions">
+                </video>
+              </div>
+              <a href="https://github.com/robodeco/Hangman-Game" class="repLink" target="_blank">Repo</a>
             </div>
+            <div class="col-lg-3">
+              <div class="video-playerWrap">
+                <video
+                  id="sql-player"
+                  controls
+                  data-cld-public-id
+                  class="cld-video-player cld-video-player-skin-dark video-player__dimensions">
+                </video>
+              </div>
+              <a href="https://github.com/robodeco/bamazon2" class="repLink" target="_blank">Repo</a>
+            </div>
+          <div class="col-lg-3"></div>
         </div>
-        <div class="btnWrap">
-            <a class="scrollBtn smoothScrl scrlDwn" href="#codTop">text</a>
-        </div>
-      </div>
-    </div>
 
-<!-- start of coding demos -->
-  <div class="row gutter" id="codTop"></div>
-  <div class="container" >
-    <div class="row">
-      <div class="col" id="codTop">
-        <div class="sectionTitle" id="codHeader">
-          <h2>Coding Samples</h2>
-          <p>To view more of my projects in progress, please visit my github <a href="https://github.com/robodeco?tab=repositories" target="_blank" id="gitLink">here</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="codWrapper">
-    <div class="row">
         <div class="row videoRow">
           <div class="col-lg-3"></div>
           <div class="col-lg-3">
-            <div class="video-player">
+            <div class="video-playerWrap">
               <video
-                id="hangman-player"
+                id="feedbag-player"
                 controls
                 data-cld-public-id
                 class="cld-video-player cld-video-player-skin-dark video-player__dimensions">
               </video>
             </div>
-            <a href="https://github.com/robodeco/Hangman-Game" class="repLink" target="_blank">Repo</a>
+            <a href="https://github.com/robodeco/Project_1" class="repLink" target="_blank">Repo</a>
           </div>
           <div class="col-lg-3">
-            <div class="video-player">
+            <div class="video-playerWrap">
               <video
-                id="sql-player"
+                id="react-player"
                 controls
                 data-cld-public-id
                 class="cld-video-player cld-video-player-skin-dark video-player__dimensions">
               </video>
             </div>
-            <a href="https://github.com/robodeco/bamazon2" class="repLink" target="_blank">Repo</a>
+            <a href="https://github.com/robodeco/React-Indecision-App-Tutorial" class="repLink" target="_blank">Repo</a>
+          </div>
+          <div class="col-lg-3"></div>
+        </div>
+        <div class="btnWrap2">
+            <a class="scrollBtn smoothScrl scrlDwn" href="#lbTop">text</a>
+        </div>
+      </div>
+    </div>
+    <!-- <a href="https://github.com/robodeco/liri-node-app" target="_blank"><button type="button" class="repLink btn btn-primary">Liri Node Application Repo</button></a>
+    <a href="https://github.com/robodeco/API_Gif" target="_blank"><button type="button" class="repLink btn btn-primary">Gif API Repo</button></a>
+    <a href="https://github.com/robodeco/myfood" target="_blank"><button type="button" class="repLink btn btn-primary">Feedbag 2.0</button></a>
+    <a href="https://github.com/robodeco/foodcodingstars" target="_blank"><button type="button" class="repLink btn btn-primary">Feedbag 3.0</button></a> -->
+
+    <!-- <a class="smoothScrl" href="#lightboxHeader">scroll down</a> -->
+
+  <!-- end of coding demos -->
+
+    <div class="row gutter" id="lbTop"></div>
+    <div class="row lbWrapper">
+      <div class="sectionTitle">
+        <h2>Design Portfolio</h2>
+      </div>
+      <!-- JMU Lightbox -->
+      <div class="lbSubHead">
+        <p>Jmu Portfolio</p>
+      </div>
+      <div class="lightbox gallery">
+        <a href="./public/images/jmu/storyboard_app/storyboard_app.jpg"
+          data-caption="first image"
+          alt="first image">
+            <img src="./public/images/jmu/storyboard_app/storyboard_app_tiny.jpg">
+        </a>
+        <a href="./public/images/jmu/mote_app/app.jpg"
+          data-caption="second image"
+          alt="second image">
+            <img src="./public/images/jmu/mote_app/app_tiny.jpg">
+        </a>
+        <a href="./public/images/jmu/rain_garden/rain-garden-1.jpg"
+          data-caption="second image"
+          alt="second image">
+            <img src="./public/images/jmu/rain_garden/rain-garden-1_tiny.jpg">
+        </a>
+        <a href="./public/images/jmu/rain_garden/rain-garden-2.jpg"
+          data-caption="second image"
+          alt="second image">
+            <img src="./public/images/jmu/rain_garden/rain-garden-2_tiny.jpg">
+        </a>
+        <a href="./public/images/jmu/book_jacket/invisibleman.jpg"
+          data-caption="second image"
+          alt="second image">
+            <img src="./public/images/jmu/book_jacket/invisibleman_tiny.jpg">
+        </a>
+        <a href="./public/images/jmu/csea/csea.jpg"
+          data-caption="second image"
+          alt="second image">
+            <img src="./public/images/jmu/csea/csea_tiny.jpg">
+        </a>
+        <a href="./public/images/jmu/cologne/cologne.jpg"
+          data-caption="second image"
+          alt="second image">
+            <img src="./public/images/jmu/cologne/cologne_tiny.jpg">
+        </a>
+        <a href="./public/images/jmu/harriswingburg_poster/harriswingburg.jpg"
+          data-caption="second image"
+          alt="second image">
+            <img src="./public/images/jmu/harriswingburg_poster/harriswingburg_tiny.jpg">
+        </a>
+        <a href="./public/images/jmu/prosthetic_infographic/prosthetic.jpg"
+          data-caption="second image"
+          alt="second image">
+            <img src="./public/images/jmu/prosthetic_infographic/prosthetic_tiny.jpg">
+        </a>
+        <a href="./public/images/jmu/jazz_poster/jazz_poster.jpg"
+          data-caption="second image"
+          alt="second image">
+            <img src="./public/images/jmu/jazz_poster/jazz_poster_tiny.jpg">
+        </a>
+        <a href="./public/images/jmu/numbers_poster/numbers_poster.jpg"
+          data-caption="second image"
+          alt="second image">
+            <img src="./public/images/jmu/numbers_poster/numbers_poster_tiny.jpg">
+        </a>
+      </div>
+      <!-- end of jmu lightbox -->
+      <div class="lbSubHead">
+        <p>Lidl Portfolio</p>
+      </div>
+      <!-- start of lidl lightbox -->
+      <div class="lightbox gallery webkit-scrollbar webkit-scrollbar-thumb">
+        <a href="./public/images/lidl/spread-1/spread-1.jpg"
+          data-caption="second image"
+          alt="second image">
+            <img src="./public/images/lidl/spread-1/spread-1_tiny.jpg">
+        </a>
+
+        <a href="./public/images/lidl/spread-2_3/spread-2.jpg"
+          data-caption="second image"
+          alt="second image">
+            <img src="./public/images/lidl/spread-2_3/spread-2_tiny.jpg">
+        </a>
+        <a href="./public/images/lidl/spread-2_3/spread-3.jpg"
+          data-caption="second image"
+          alt="second image">
+            <img src="./public/images/lidl/spread-2_3/spread-3_tiny.jpg">
+        </a>
+        <a href="./public/images/lidl/spread-4_5/spread-4.jpg"
+          data-caption="second image"
+          alt="second image">
+            <img src="./public/images/lidl/spread-4_5/spread-4_tiny.jpg">
+        </a>
+        <a href="./public/images/lidl/spread-4_5/spread-5.jpg"
+          data-caption="second image"
+          alt="second image">
+            <img src="./public/images/lidl/spread-4_5/spread-5_tiny.jpg">
+        </a>
+        <a href="./public/images/lidl/travel-poster/travel.jpg"
+          data-caption="second image"
+          alt="second image">
+            <img src="./public/images/lidl/travel-poster/travel_tiny.jpg">
+        </a>
+      </div>
+      <!-- end of lidl lightbox -->
+      <div class="btnWrap2" id="lbButton">
+          <a class="scrollBtn smoothScrl scrlDwn" href="#mogrTop">text</a>
+      </div>
+    </div>
+
+    <div class="row gutter" id="mogrTop"></div>
+    <div class="row motionGraphicsWrapper">
+      <div class="row">
+        <div class="col">
+          <div class="sectionTitle" id="mgHead">
+            <h2>Motion Graphics</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="row videoRow">
+        <div class="col-lg-3"></div>
+          <div class="col-lg-3">
+            <div class="video-playerWrap">
+              <video
+                id="robot-player"
+                controls
+                data-cld-public-id
+                class="cld-video-player cld-video-player-skin-dark video-player__dimensions">
+              </video>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="video-playerWrap">
+              <video
+                id="nlc-player"
+                controls
+                data-cld-public-id
+                class="cld-video-player cld-video-player-skin-dark video-player__dimensions">
+              </video>
+            </div>
           </div>
         <div class="col-lg-3"></div>
       </div>
@@ -93,227 +280,50 @@
       <div class="row videoRow">
         <div class="col-lg-3"></div>
         <div class="col-lg-3">
-          <div class="video-player">
+          <div class="video-playerWrap">
             <video
-              id="feedbag-player"
+              id="lidl1-player"
               controls
               data-cld-public-id
               class="cld-video-player cld-video-player-skin-dark video-player__dimensions">
             </video>
           </div>
-          <a href="https://github.com/robodeco/Project_1" class="repLink" target="_blank">Repo</a>
         </div>
         <div class="col-lg-3">
-          <div class="video-player">
+          <div class="video-playerWrap">
             <video
-              id="react-player"
+              id="lidl3-player"
               controls
               data-cld-public-id
               class="cld-video-player cld-video-player-skin-dark video-player__dimensions">
             </video>
           </div>
-          <a href="https://github.com/robodeco/React-Indecision-App-Tutorial" class="repLink" target="_blank">Repo</a>
         </div>
         <div class="col-lg-3"></div>
       </div>
-      <div class="btnWrap2">
-          <a class="scrollBtn smoothScrl scrlDwn" href="#lightboxHeader">text</a>
+      <div class="row videoRow">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+          <div class="video-playerWrap">
+            <video
+              id="lidl2-player"
+              controls
+              data-cld-public-id
+              class="cld-video-player cld-video-player-skin-dark video-player__dimensions">
+            </video>
+          </div>
+        </div>
+        <div class="col-lg-4"></div>
       </div>
     </div>
+
+    <div class="row footer">
+      (footer) powered by: jquery, bootstrap, SASS, baguettebox.js, cloudinary
+    </div>
   </div>
-  <!-- <a href="https://github.com/robodeco/liri-node-app" target="_blank"><button type="button" class="repLink btn btn-primary">Liri Node Application Repo</button></a>
-  <a href="https://github.com/robodeco/API_Gif" target="_blank"><button type="button" class="repLink btn btn-primary">Gif API Repo</button></a>
-  <a href="https://github.com/robodeco/myfood" target="_blank"><button type="button" class="repLink btn btn-primary">Feedbag 2.0</button></a>
-  <a href="https://github.com/robodeco/foodcodingstars" target="_blank"><button type="button" class="repLink btn btn-primary">Feedbag 3.0</button></a> -->
-
-  <!-- <a class="smoothScrl" href="#lightboxHeader">scroll down</a> -->
-
-<!-- end of coding demos -->
-
-  <div class="row" id="lightboxHeader"></div>
-  <div class="row">
-    <div class="sectionTitle">
-      <h2>Design Portfolio</h2>
-    </div>
-    <!-- JMU Lightbox -->
-    <div>
-      <p>Jmu Portfolio</p>
-    </div>
-    <div class="lightbox gallery">
-      <a href="./public/images/jmu/storyboard_app/storyboard_app.jpg"
-        class="lightbox-gal__img"
-        data-caption="first image"
-        alt="first image">
-          <img src="./public/images/jmu/storyboard_app/storyboard_app_tiny.jpg">
-      </a>
-      <a href="./public/images/jmu/mote_app/app.jpg"
-        class="lightbox-gal__img"
-        data-caption="second image"
-        alt="second image">
-          <img src="./public/images/jmu/mote_app/app_tiny.jpg">
-      </a>
-      <a href="./public/images/jmu/rain_garden/rain-garden-1.jpg"
-        class="lightbox-gal__img"
-        data-caption="second image"
-        alt="second image">
-          <img src="./public/images/jmu/rain_garden/rain-garden-1_tiny.jpg">
-      </a>
-      <a href="./public/images/jmu/rain_garden/rain-garden-2.jpg"
-        class="lightbox-gal__img"
-        data-caption="second image"
-        alt="second image">
-          <img src="./public/images/jmu/rain_garden/rain-garden-2_tiny.jpg">
-      </a>
-      <a href="./public/images/jmu/book_jacket/invisibleman.jpg"
-        class="lightbox-gal__img"
-        data-caption="second image"
-        alt="second image">
-          <img src="./public/images/jmu/book_jacket/invisibleman_tiny.jpg">
-      </a>
-      <a href="./public/images/jmu/csea/csea.jpg"
-        class="lightbox-gal__img"
-        data-caption="second image"
-        alt="second image">
-          <img src="./public/images/jmu/csea/csea_tiny.jpg">
-      </a>
-      <a href="./public/images/jmu/cologne/cologne.jpg"
-        class="lightbox-gal__img"
-        data-caption="second image"
-        alt="second image">
-          <img src="./public/images/jmu/cologne/cologne_tiny.jpg">
-      </a>
-      <a href="./public/images/jmu/harriswingburg_poster/harriswingburg.jpg"
-        class="lightbox-gal__img"
-        data-caption="second image"
-        alt="second image">
-          <img src="./public/images/jmu/harriswingburg_poster/harriswingburg_tiny.jpg">
-      </a>
-      <a href="./public/images/jmu/prosthetic_infographic/prosthetic.jpg"
-        class="lightbox-gal__img"
-        data-caption="second image"
-        alt="second image">
-          <img src="./public/images/jmu/prosthetic_infographic/prosthetic_tiny.jpg">
-      </a>
-      <a href="./public/images/jmu/jazz_poster/jazz_poster.jpg"
-        class="lightbox-gal__img"
-        data-caption="second image"
-        alt="second image">
-          <img src="./public/images/jmu/jazz_poster/jazz_poster_tiny.jpg">
-      </a>
-      <a href="./public/images/jmu/numbers_poster/numbers_poster.jpg"
-        class="lightbox-gal__img"
-        data-caption="second image"
-        alt="second image">
-          <img src="./public/images/jmu/numbers_poster/numbers_poster_tiny.jpg">
-      </a>
-    </div>
-    <!-- end of jmu lightbox -->
-    <div>
-      <p>Lidl Portfolio</p>
-    </div>
-    <!-- start of lidl lightbox -->
-    <div class="lightbox gallery webkit-scrollbar webkit-scrollbar-thumb">
-      <a href="./public/images/lidl/spread-1/spread-1.jpg"
-        class="lightbox-gal__img"
-        data-caption="second image"
-        alt="second image">
-          <img src="./public/images/lidl/spread-1/spread-1_tiny.jpg">
-      </a>
-      <a href="./public/images/lidl/spread-2_3/spread-2.jpg"
-        class="lightbox-gal__img"
-        data-caption="second image"
-        alt="second image">
-          <img src="./public/images/lidl/spread-2_3/spread-2_tiny.jpg">
-      </a>
-      <a href="./public/images/lidl/spread-2_3/spread-3.jpg"
-        class="lightbox-gal__img"
-        data-caption="second image"
-        alt="second image">
-          <img src="./public/images/lidl/spread-2_3/spread-3_tiny.jpg">
-      </a>
-      <a href="./public/images/lidl/spread-4_5/spread-4.jpg"
-        class="lightbox-gal__img"
-        data-caption="second image"
-        alt="second image">
-          <img src="./public/images/lidl/spread-4_5/spread-4_tiny.jpg">
-      </a>
-      <a href="./public/images/lidl/spread-4_5/spread-5.jpg"
-        class="lightbox-gal__img"
-        data-caption="second image"
-        alt="second image">
-          <img src="./public/images/lidl/spread-4_5/spread-5_tiny.jpg">
-      </a>
-      <a href="./public/images/lidl/travel-poster/travel.jpg"
-        class="lightbox-gal__img"
-        data-caption="second image"
-        alt="second image">
-          <img src="./public/images/lidl/travel-poster/travel_tiny.jpg">
-      </a>
-    </div>
-    <!-- end of lidl lightbox -->
-
-    <a class="smoothScrl" href="#mogrHeader">scroll down</a></div>
-
-  <div class="row" id="mogrHeader"></div>
-    <div class="sectionTitle">
-      <h2>Motion Graphics</h2>
-  </div>
-  <div class="row motionGraphicsWrapper">
-    <div class="video-player">
-      <video
-        id="robot-player"
-        controls
-        data-cld-public-id
-        class="cld-video-player cld-video-player-skin-dark video-player__dimensions">
-      </video>
-    </div>
-
-    <div class="video-player">
-      <video
-        id="nlc-player"
-        controls
-        data-cld-public-id
-        class="cld-video-player cld-video-player-skin-dark video-player__dimensions">
-      </video>
-    </div>
-
-    <div class="video-player">
-      <video
-        id="lidl1-player"
-        controls
-        data-cld-public-id
-        class="cld-video-player cld-video-player-skin-dark video-player__dimensions"
-        >
-      </video>
-    </div>
-
-    <div class="video-player">
-      <video
-        id="lidl2-player"
-        controls
-        data-cld-public-id
-        class="cld-video-player cld-video-player-skin-dark video-player__dimensions">
-      </video>
-    </div>
-
-    <div class="video-player">
-      <video
-        id="lidl3-player"
-        controls
-        data-cld-public-id
-        class="cld-video-player cld-video-player-skin-dark video-player__dimensions">
-      </video>
-    </div>
-    <a class="smoothScrl" href="#top">scroll to top</a>
-  </div>
-  <div class="row footer">
-    (footer) powered by: jquery, bootstrap, SASS, baguettebox.js, cloudinary
-  </div>
-
 <script src="./public/javascript/external_js/baguetteBox.js"></script>
 <script src="./public/javascript/external_js/smooth-scroll.js"></script>
 <script src="./public/javascript/home.js" type="text/javascript"></script>
-<script src="./public/javascript/style.js" type="text/javascript"></script>
 </body>
 </html>
 

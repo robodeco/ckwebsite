@@ -3,12 +3,16 @@ $dnBt: url('../../images/half-circle-btn-down.png');
 $dnBt_inv: url('../../images/half-circle-btn-down_inv.png');
 
 .btnWrap {
-  margin-left: 42%;
-  margin-top: 38.5%;
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
 }
 
 .btnWrap2 {
-  margin-left: 42%;
+  margin-top: 100px;
 }
 
 .smoothScrl {
@@ -27,12 +31,17 @@ $dnBt_inv: url('../../images/half-circle-btn-down_inv.png');
 }
 
 .scrollBtn {
-  display: inline-block;
-  text-indent: -9999px;
+  margin: auto;
+  display: block;
   width: 250px;
-  height: 150px;
+  height: 120px;
+  text-indent: -9999px;
   background-size: 200px;
   background-repeat: no-repeat;
   background-position: center;
   transition: .2s ease-in-out;
+}
+
+#lbButton {
+  margin-top: 10px;
 }
