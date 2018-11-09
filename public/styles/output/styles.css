@@ -1,9 +1,7 @@
 @import '../external_css/baguetteBox.css';
 html, body {
-  margin-left: 0;
-  margin-right: 0;
-  height: 100%;
-  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 img {
@@ -11,8 +9,8 @@ img {
   width: 100%;
 }
 
-.container {
-  width: 100%;
+.row {
+  width: 100vw;
 }
 
 .gutter {
@@ -55,7 +53,11 @@ img {
 }
 
 #codHeader {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
+}
+
+#codHRow {
+  height: 80px;
 }
 
 .codWrapper {
@@ -91,8 +93,8 @@ img {
 .header {
   background-color: #F5CF1A;
   height: 100vh;
-  overflow: auto;
   overflow-y: hidden;
+  width: 100vw;
 }
 
 .header_parallax {
@@ -101,6 +103,7 @@ img {
   background-position: center top 55%;
   background-repeat: no-repeat;
   background-size: 300px 300px;
+  max-width: 100%;
 }
 
 .nameBox {
@@ -126,7 +129,7 @@ img {
   flex-direction: column;
   width: 300px;
   float: right;
-  margin-right: 16%;
+  margin-right: 20%;
   margin-top: 23%;
 }
 
@@ -142,45 +145,42 @@ img {
   text-align: center;
 }
 
-.lightbox {
-  width: 100%;
+.lbWrapper {
+  height: 100vh;
+  width: 80vw;
   margin: auto;
-  display: flex;
-  overflow-x: scroll;
 }
 
-.lightbox-gal__img {
+.lbSubHead {
+  margin-top: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.lightbox {
+  margin: auto;
+  display: block;
+  overflow-x: scroll;
+  text-align: center;
+}
+
+.lightbox a {
+  width: 140px;
+  height: 140px;
+  display: inline-block;
+  overflow: hidden;
   margin: 5px;
   object-fit: contain;
 }
 
-.lightbox::-webkit-scrollbar {
-  width: 2px;
-}
-
-.lightbox::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3);
-}
-
-.lightbox::-webkit-scrollbar-thumb {
-  background-color: lightgrey;
-}
-
-#lightboxHeader {
-  height: 50px;
-  text-align: center;
-}
-
-#mogrHeader {
-  height: 50px;
-  text-align: center;
+#mgHead {
+  margin-bottom: 80px;
 }
 
 .motionGraphicsWrapper {
-  min-height: 250px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  height: 100vh;
+  background-color: white;
+  margin-top: 25px;
 }
 
 .navbarSticky {
@@ -190,8 +190,11 @@ img {
   flex-direction: row;
   height: 50px;
   position: fixed;
-  top: 0px;
+  overflow: hidden;
+  top: 0;
   width: 100%;
+  left: 0;
+  right: 0;
   z-index: 5;
 }
 
@@ -213,12 +216,16 @@ img {
 }
 
 .btnWrap {
-  margin-left: 42%;
-  margin-top: 38.5%;
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
 }
 
 .btnWrap2 {
-  margin-left: 42%;
+  margin-top: 100px;
 }
 
 .smoothScrl {
@@ -237,19 +244,26 @@ img {
 }
 
 .scrollBtn {
-  display: inline-block;
-  text-indent: -9999px;
+  margin: auto;
+  display: block;
   width: 250px;
-  height: 150px;
+  height: 120px;
+  text-indent: -9999px;
   background-size: 200px;
   background-repeat: no-repeat;
   background-position: center;
   transition: 0.2s ease-in-out;
 }
 
-.video-player {
+#lbButton {
+  margin-top: 10px;
+}
+
+.video-playerWrap {
   width: 100%;
+  max-width: 350px;
   display: inline-flex;
+  height: 160px;
 }
 
 .video-player__dimensions {
@@ -259,15 +273,14 @@ img {
 .videoRow {
   align-content: center;
   text-align: center;
-  height: 32vh;
+  margin-bottom: 25px;
 }
 
 .repLink {
   color: white;
   text-align: center;
   background-color: orange;
-  padding-left: 155px;
-  padding-right: 155px;
+  width: 100%;
   display: inline-block;
   text-decoration: none;
   margin: auto;

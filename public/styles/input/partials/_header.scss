@@ -3,9 +3,8 @@ $logo-img: url('../../images/logo-me-big.png');
 .header {
   background-color: #F5CF1A;
   height: 100vh;
-  overflow: auto;
   overflow-y: hidden;
-
+  width: 100vw;
 }
 
 .header_parallax {
@@ -14,6 +13,7 @@ $logo-img: url('../../images/logo-me-big.png');
   background-position: center top 55%;
   background-repeat: no-repeat;
   background-size: 300px 300px;
+  max-width: 100%;
 }
 
 .nameBox {
@@ -39,7 +39,7 @@ $logo-img: url('../../images/logo-me-big.png');
   flex-direction: column;
   width: 300px;
   float: right;
-  margin-right: 16%;
+  margin-right: 20%;
   margin-top: 23%;
 }
 

@@ -2,14 +2,16 @@ $fullsize: 50px;
 
 .navbarSticky {
   background-color: black;
-  // border: 2px solid white;
   color: white;
   display: flex;
   flex-direction: row;
   height: $fullsize;
   position: fixed;
-  top: 0px;
+  overflow: hidden;
+  top: 0;
   width: 100%;
+  left: 0;
+  right: 0;
   z-index: 5;
 }
 

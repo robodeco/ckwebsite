@@ -1,8 +1,7 @@
 .motionGraphicsWrapper {
-  min-height: 250px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  height: 100vh;
+  background-color: white;
+  margin-top: 25px;
 }
 
 /*# sourceMappingURL=motionGraphicsWrapper.css.map */
