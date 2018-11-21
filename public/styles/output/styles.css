@@ -1,7 +1,33 @@
 @import '../external_css/baguetteBox.css';
+.abmeWrapper {
+  height: 100vh;
+  background-color: white;
+  margin-top: 25px;
+}
+
+.textContain {
+  margin-top: 50px;
+}
+
+#mePicHolder {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-image: url("../../images/me.jpg");
+  background-size: 350px;
+  background-position: top center;
+}
+
+#abmeHead {
+  margin: 0;
+}
+
 html, body {
   max-height: 100%;
   max-width: 100%;
+}
+
+h2 {
+  margin: 0;
 }
 
 img {
@@ -85,9 +111,21 @@ img {
   color: black;
 }
 
+.contactWrapper {
+  height: 100vh;
+  background-color: white;
+  margin-top: 25px;
+}
+
 .footer {
   height: 100px;
   background-color: #F5CF1A;
+}
+
+#warning {
+  font-family: helvetica;
+  font-size: 25px;
+  line-height: 100%;
 }
 
 .header {
@@ -102,49 +140,105 @@ img {
   background-attachment: fixed;
   background-position: center top 55%;
   background-repeat: no-repeat;
-  background-size: 300px 300px;
+  background-size: 30vw;
   max-width: 100%;
 }
 
 .nameBox {
   font-family: "DecoTech";
-  display: flex;
-  float: left;
-  flex-direction: column;
-  width: 375px;
-  text-align: right;
-  margin-left: 12%;
-  margin-top: 20%;
-}
-
-.nameHead {
-  width: 100%;
-  font-size: 7vw;
-  margin: 0;
+  display: inline-block;
+  height: 300px;
+  width: 80%;
+  margin-top: 40vh;
+  margin-left: 0;
+  font-size: 9vw;
+  max-height: 200px;
+  text-align: center;
+  line-height: 100%;
 }
 
 .subBox {
   font-family: "DolceVita";
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  float: right;
-  margin-right: 20%;
-  margin-top: 23%;
+  width: 100;
+  margin-top: 44vh;
+  margin-left: 30%;
+  font-size: 4vw;
+  line-height: 100%;
 }
 
-.titleSubH {
-  font-size: 3vw;
-  margin: 0;
+.subBox ul {
+  padding: 0;
 }
 
-#warning {
-  font-size: 25px;
-  margin-top: 70px;
-  margin-left: auto;
-  text-align: center;
-}
+@media only screen and (max-width: 767px) {
+  .header_parallax {
+    background-size: 30vw;
+  }
 
+  .nameBox {
+    display: block;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12vw;
+    width: 70%;
+    height: 20vh;
+    text-align: center;
+    line-height: 100%;
+  }
+
+  .subBox {
+    margin-top: 44vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 4vw;
+    line-height: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header_parallax {
+    background-size: 45vw;
+  }
+
+  .nameBox {
+    margin-top: 12vh;
+    font-size: 13vw;
+  }
+
+  .subBox {
+    margin-top: 45vh;
+    font-size: 5vw;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .header_parallax {
+    background-size: 60vw;
+  }
+
+  .nameBox {
+    margin-top: 15vh;
+    font-size: 18vw;
+  }
+
+  .subBox {
+    margin-top: 40vh;
+    font-size: 7vw;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .nameBox {
+    margin-top: 17vh;
+    font-size: 25vw;
+    width: 100%;
+  }
+
+  .subBox {
+    margin-top: 38vh;
+    font-size: 9vw;
+  }
+}
 .lbWrapper {
   height: 100vh;
   width: 80vw;
@@ -215,16 +309,11 @@ img {
   color: #F5CF1A;
 }
 
-.btnWrap {
-  width: 100%;
-  height: 120px;
-  text-align: center;
-  display: inline-block;
-  position: absolute;
-  bottom: 0;
+#headBtn {
+  margin-top: 85vh;
 }
 
-.btnWrap2 {
+.btnWrap {
   margin-top: 100px;
 }
 
@@ -251,7 +340,7 @@ img {
   text-indent: -9999px;
   background-size: 200px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center bottom;
   transition: 0.2s ease-in-out;
 }
 
@@ -259,6 +348,28 @@ img {
   margin-top: 10px;
 }
 
+@media only screen and (max-width: 767px) {
+  .scrlDwn {
+    display: none;
+  }
+
+  .scrollBtn {
+    display: none;
+    width: 0;
+    height: 0;
+    background-size: 0;
+  }
+
+  .btnWrap {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  .btnWrap {
+    display: none;
+  }
+}
 .video-playerWrap {
   width: 100%;
   max-width: 350px;
