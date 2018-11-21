@@ -7,10 +7,11 @@ You may find my roadmap below:
 
 <li>Fix section layout heights and widths; readjust all section contents accordingly</li>
 <li>Implement scroll-down and scoll-up interactive buttons in each section</li>
-<li>Add 'About Me' section </li>
+<li>✓✓Add 'About Me' section </li>
 <li>Add 'Contact' section </li>
 <li>Adjust all fonts in accordance with brand</li>
 <li>Implement css transitions and transformations</li>
+<li>Include hamburger navigation menu</li>
 <li>Fix video quality</li>
 <li>Include lightbox descriptions and titles</li>
 <li>Implement footer containing technologies used and corresponding logos</li>
