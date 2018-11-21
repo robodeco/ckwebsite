@@ -31,15 +31,7 @@ const lidl1Player = cld.videoPlayer('lidl1-player', {
     crop: "fill"
   }
 })
-// {
-//     transformation: {
-//       background: "black",
-//       height: 0.1,
-//       crop: "pad",
-//       gravity: "center"
-//     }
-//   }
-// );
+
 const lidl1Source = "v1540514570/mogr/CW30_NF_Exit.mp4";
 
 const lidl2Player = cld.videoPlayer('lidl2-player');

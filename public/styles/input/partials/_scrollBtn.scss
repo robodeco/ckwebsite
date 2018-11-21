@@ -2,16 +2,11 @@
 $dnBt: url('../../images/half-circle-btn-down.png');
 $dnBt_inv: url('../../images/half-circle-btn-down_inv.png');
 
-.btnWrap {
-  width: 100%;
-  height: 120px;
-  text-align: center;
-  display: inline-block;
-  position: absolute;
-  bottom: 0;
+#headBtn {
+  margin-top: 85vh;
 }
 
-.btnWrap2 {
+.btnWrap {
   margin-top: 100px;
 }
 
@@ -38,10 +33,33 @@ $dnBt_inv: url('../../images/half-circle-btn-down_inv.png');
   text-indent: -9999px;
   background-size: 200px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center bottom;
   transition: .2s ease-in-out;
 }
 
 #lbButton {
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .scrlDwn {
+    display: none;
+  }
+
+  .scrollBtn {
+    display: none;
+    width: 0;
+    height: 0;
+    background-size: 0;
+  }
+
+  .btnWrap {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+  .btnWrap {
+    display: none;
+  }
 }

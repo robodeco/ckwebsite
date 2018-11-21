@@ -15,7 +15,7 @@
 
 <body>
   <div class="container-fluid">
-    <div class="navbarSticky">
+    <div class="navbar navbarSticky">
       <div class="navChild"><a class="pageJump" href="#top">top</a></div>
       <div class="navChild"><a class="pageJump" href="#codTop">coding samples</a></div>
       <div class="navChild"><a class="pageJump" href="#lbTop">design portfolio</a></div>
@@ -26,27 +26,23 @@
 
       <div class="row">
         <div class="header header_parallax" id="top">
-          <div>
-          <p id="warning"><b>warning:</b> still under construction, and not optimized for responsiveness! please view with a computer for the time being.</p>
-          </div>
-          <div class="col-lg-6">
+          <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-12">
             <div class="nameBox">
-              <h1 class="nameHead">Christopher Katalinas</h1>
+              <p>Christopher Katalinas</p>
+              <p id="warning">WARNING: still working on responsiveness, but the landing page is mostly done!</p>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-0"></div>
+          <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-12">
             <div class="subBox">
-              <h4 class="titleSubH">Developer</h4>
-              <h4 class="titleSubH">Designer</h4>
-              <h4 class="titleSubH">Illustrator</h4>
-              <h4 class="titleSubH">Robot</h4>
-              </div>
+              <ul>Developer</ul>
+              <ul>Designer</ul>
+              <ul>Illustrator</ul>
+              <ul>Robot</ul>
+            </div>
           </div>
-          <!-- <div class="row"> -->
-          <div class="btnWrap">
-              <a class="scrollBtn smoothScrl scrlDwn" href="#codTop">text</a>
-          </div>
-        <!-- </div> -->
+            <a id="headBtn" class="scrollBtn smoothScrl scrlDwn" href="#codTop">text</a>
+            <div>
         </div>
       </div>
 
@@ -243,6 +239,7 @@
 
     <div class="row gutter" id="mogrTop"></div>
     <div class="row motionGraphicsWrapper">
+
       <div class="row">
         <div class="col">
           <div class="sectionTitle" id="mgHead">
@@ -317,10 +314,51 @@
       </div>
     </div>
 
+    <div class="row gutter"></div>
+
+    <div class="row abmeWrapper">
+      <div class="row">
+        <div class="col sectionTitle" id="abmeHead">
+            <h2>About Me</h2>
+        </div>
+      </div>
+
+      <div class="row textContain">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-3">
+          <p>Hi! I'm Chris, and I'd like to thank you for visiting my website! Your first question upon reading the welcome page was probably something like, "why does this kid call himself a robot?" Well firstly let me allay any fears you might have of me being a terminator that can't keep a secret. I'm one pretty big nerd through and through, and I've always loved robots, especially the 1950's space race versions of them. There's something about that style that's always captured my imagination –  it just screams adventure. So I figured, what better than a space race robot as a personal logo? Makes for one nifty catchphrase.</p>
+
+          <p>So sadly, I am not a terminator. What I am is a graphic designer, having graduated from James Madison University with a BA in Graphic Design in May 2016, and having attended on scholarship. About a year and a half of my time there was spent working as a student designer at an on-campus location called Creative Services concurrently with my studies. About four months out I was offered commission for a motion graphic for National League of Cities. Five months out I was offered a job at Lidl Grocers US, a german grocery chain brand new to the American market, in need of one nerdy designer on a team of 9.</p>
+        </div>
+
+  ​      <div class="col-lg-3">
+          <p>In my time there I had worked on things from weekly leaflets–with my highlight being a design for Heidi Klum's team (which I'm unable to show online due to proprietary concerns) showcasing her line of #Letswow fashion–to a series of motion graphics shown in every store showcasing Lidl's latest deals and products. In addition I was put in charge of art directing a forty page fitness booklet and co-leading the design of every store's price tag along with my manager. Suffice to say it was quite the ride.</p>
+
+          <p>But I'm not done yet! I recently made it through a 6 month web dev program conducted through George Washington University, where I learned fullstack web coding from web servers to web pages! I hope to combine my knowledge of graphic design with this new knowledge of web development, to form a synthesis between the two. I'm currently looking into UI design, frontend web development and fullstack positions as we speak! In my off time I'm furthering my education in coding, looking into making my own online design store, teaching myself illustration techniques, playing my ukulele, swing dancing, and secretly building up my robot arm-....
+
+          ...forget you heard that.</p>
+        </div>
+        <div class="col-lg-5" id="mePicHolder"></div>
+      </div>
+    </div>
+
+    <div class="row gutter"></div>
+
+    <div class="row contactWrapper">
+      <div class="row">
+        <div class="col sectionTitle">
+            <h2>Contact</h2>
+        </div>
+      </div>
+    </div>
+
     <div class="row footer">
       (footer) powered by: jquery, bootstrap, SASS, baguettebox.js, cloudinary
     </div>
+
   </div>
+
+
 <script src="./public/javascript/external_js/baguetteBox.js"></script>
 <script src="./public/javascript/external_js/smooth-scroll.js"></script>
 <script src="./public/javascript/home.js" type="text/javascript"></script>
