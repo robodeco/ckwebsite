@@ -1,5 +1,40 @@
 .contactWrapper {
-  height: 100vh;
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 55vh;
+  background-color: #2D2D2D;
+  margin-left: 0;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+
+  p {
+    margin-top: 30px;
+    word-wrap: break-word;
+  }
+
+  ul {
+    padding-left: 0;
+    word-wrap: break-word;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: #F5CF1A;
+  }
+}
+
+.liHead {
+  font-size: 14pt;
+  margin-top: 15px;
+}
+
+.conT {
   margin-top: 25px;
 }

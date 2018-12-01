@@ -1,0 +1,12 @@
+.motionGraphicsWrapper {
+  height: 100vh;
+  background-color: white;
+  margin-left: 0;
+  overflow-y: auto;
+}
+
+@media only screen and (max-width: 400px) {
+  .motionGraphicsWrapper{
+    margin-top: 0px;
+  }
+}

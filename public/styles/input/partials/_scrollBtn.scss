@@ -10,6 +10,14 @@ $dnBt_inv: url('../../images/half-circle-btn-down_inv.png');
   margin-top: 100px;
 }
 
+.btnWrap2 {
+  margin-top: 70px;
+}
+
+.btnWrap3  {
+  margin-top: 10px;
+}
+
 .smoothScrl {
   background-color: none;
 }
@@ -58,8 +66,5 @@ $dnBt_inv: url('../../images/half-circle-btn-down_inv.png');
     display: none;
     width: 0;
     height: 0;
-  }
-  .btnWrap {
-    display: none;
   }
 }

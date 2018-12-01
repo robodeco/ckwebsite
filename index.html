@@ -20,8 +20,8 @@
       <div class="navChild"><a class="pageJump" href="#codTop">coding samples</a></div>
       <div class="navChild"><a class="pageJump" href="#lbTop">design portfolio</a></div>
       <div class="navChild"><a class="pageJump" href="#mogrTop">motion graphics</a></div>
-      <div class="navChild">about me</div>
-      <div class="navChild">contact</div>
+      <div class="navChild"><a class="pageJump" href="#abmeTop">about me</a></div>
+      <div class="navChild"><a class="pageJump" href="#cTop">contact</a></div>
     </div>
 
       <div class="row">
@@ -42,12 +42,12 @@
             </div>
           </div>
             <a id="headBtn" class="scrollBtn smoothScrl scrlDwn" href="#codTop">text</a>
-            <div>
-        </div>
       </div>
 
   <!-- start of coding demos -->
     <div class="row gutter" id="codTop"></div>
+
+    <div class="row codWrapper">
       <div class="row" id="codHRow">
         <div class="col">
           <div class="sectionTitle" id="codHeader">
@@ -58,11 +58,9 @@
         </div>
       </div>
 
-    <div class="codWrapper">
-      <div class="row">
-          <div class="row videoRow">
-            <div class="col-lg-3"></div>
-            <div class="col-lg-3">
+      <div class="row videoRow">
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-2 col-xs-0"></div>
+            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-xs-12">
               <div class="video-playerWrap">
                 <video
                   id="hangman-player"
@@ -70,10 +68,13 @@
                   data-cld-public-id
                   class="cld-video-player cld-video-player-skin-dark video-player__dimensions">
                 </video>
+                <div class="repBox">
+                  <a href="https://github.com/robodeco/Hangman-Game" class="repLink" target="_blank">Repo</a>
+                </div>
               </div>
-              <a href="https://github.com/robodeco/Hangman-Game" class="repLink" target="_blank">Repo</a>
+
             </div>
-            <div class="col-lg-3">
+            <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-xs-12">
               <div class="video-playerWrap">
                 <video
                   id="sql-player"
@@ -81,15 +82,17 @@
                   data-cld-public-id
                   class="cld-video-player cld-video-player-skin-dark video-player__dimensions">
                 </video>
+                <div class="repBox">
+                  <a href="https://github.com/robodeco/bamazon2" class="repLink" target="_blank">Repo</a>
+                </div>
               </div>
-              <a href="https://github.com/robodeco/bamazon2" class="repLink" target="_blank">Repo</a>
             </div>
-          <div class="col-lg-3"></div>
+          <div class="col-xl-2 col-lg-2 col-md-3 col-sm-2 col-xs-0"></div>
         </div>
 
         <div class="row videoRow">
-          <div class="col-lg-3"></div>
-          <div class="col-lg-3">
+          <div class="col-xl-2 col-lg-2 col-md-3 col-sm-2 col-xs-0"></div>
+          <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-xs-12">
             <div class="video-playerWrap">
               <video
                 id="feedbag-player"
@@ -97,10 +100,13 @@
                 data-cld-public-id
                 class="cld-video-player cld-video-player-skin-dark video-player__dimensions">
               </video>
+              <div class="repBox">
+                <a href="https://github.com/robodeco/Project_1" class="repLink" target="_blank">Repo</a>
+              </div>
             </div>
-            <a href="https://github.com/robodeco/Project_1" class="repLink" target="_blank">Repo</a>
+
           </div>
-          <div class="col-lg-3">
+          <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-xs-12">
             <div class="video-playerWrap">
               <video
                 id="react-player"
@@ -108,30 +114,30 @@
                 data-cld-public-id
                 class="cld-video-player cld-video-player-skin-dark video-player__dimensions">
               </video>
+              <div class="repBox">
+                <a href="https://github.com/robodeco/React-Indecision-App-Tutorial" class="repLink" target="_blank">Repo</a>
+              </div>
             </div>
-            <a href="https://github.com/robodeco/React-Indecision-App-Tutorial" class="repLink" target="_blank">Repo</a>
           </div>
-          <div class="col-lg-3"></div>
+          <div class="col-xl-2 col-lg-2 col-md-3 col-sm-2 col-xs-0"></div>
         </div>
         <div class="btnWrap2">
             <a class="scrollBtn smoothScrl scrlDwn" href="#lbTop">text</a>
         </div>
-      </div>
     </div>
     <!-- <a href="https://github.com/robodeco/liri-node-app" target="_blank"><button type="button" class="repLink btn btn-primary">Liri Node Application Repo</button></a>
     <a href="https://github.com/robodeco/API_Gif" target="_blank"><button type="button" class="repLink btn btn-primary">Gif API Repo</button></a>
     <a href="https://github.com/robodeco/myfood" target="_blank"><button type="button" class="repLink btn btn-primary">Feedbag 2.0</button></a>
     <a href="https://github.com/robodeco/foodcodingstars" target="_blank"><button type="button" class="repLink btn btn-primary">Feedbag 3.0</button></a> -->
 
-    <!-- <a class="smoothScrl" href="#lightboxHeader">scroll down</a> -->
-
   <!-- end of coding demos -->
 
     <div class="row gutter" id="lbTop"></div>
     <div class="row lbWrapper">
-      <div class="sectionTitle">
+      <div class="sectionTitle" id="lbHead">
         <h2>Design Portfolio</h2>
       </div>
+
       <!-- JMU Lightbox -->
       <div class="lbSubHead">
         <p>Jmu Portfolio</p>
@@ -237,20 +243,18 @@
       </div>
     </div>
 
+    <!-- end of total lightbox section -->
+
     <div class="row gutter" id="mogrTop"></div>
     <div class="row motionGraphicsWrapper">
 
-      <div class="row">
-        <div class="col">
-          <div class="sectionTitle" id="mgHead">
-            <h2>Motion Graphics</h2>
-          </div>
-        </div>
+      <div class="sectionTitle" id="mgHead">
+        <h2>Motion Graphics</h2>
       </div>
 
       <div class="row videoRow">
-        <div class="col-lg-3"></div>
-          <div class="col-lg-3">
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
             <div class="video-playerWrap">
               <video
                 id="robot-player"
@@ -261,7 +265,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
             <div class="video-playerWrap">
               <video
                 id="nlc-player"
@@ -271,12 +275,12 @@
               </video>
             </div>
           </div>
-        <div class="col-lg-3"></div>
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
       </div>
 
       <div class="row videoRow">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-3">
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
           <div class="video-playerWrap">
             <video
               id="lidl1-player"
@@ -286,7 +290,7 @@
             </video>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
           <div class="video-playerWrap">
             <video
               id="lidl3-player"
@@ -296,11 +300,11 @@
             </video>
           </div>
         </div>
-        <div class="col-lg-3"></div>
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
       </div>
       <div class="row videoRow">
-        <div class="col-lg-4"></div>
-        <div class="col-lg-4">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12"></div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
           <div class="video-playerWrap">
             <video
               id="lidl2-player"
@@ -310,50 +314,77 @@
             </video>
           </div>
         </div>
-        <div class="col-lg-4"></div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12"></div>
+      </div>
+      <div class="btnWrap3">
+          <a class="scrollBtn smoothScrl scrlDwn" href="#abmeTop">text</a>
       </div>
     </div>
 
-    <div class="row gutter"></div>
+    <div class="row gutter" id="abmeTop"></div>
 
-    <div class="row abmeWrapper">
-      <div class="row">
-        <div class="col sectionTitle" id="abmeHead">
+    <div class="abmeWrapper">
+        <div class="sectionTitle" id="abmeHead">
             <h2>About Me</h2>
         </div>
+
+      <div class="textContain">
+        <div class="row">
+          <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0"></div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+            <p>Hi! I'm Chris, and I'd like to thank you for visiting my website! Your first question upon reading the welcome page was probably something like, "why does this kid call himself a robot?" Well firstly let me allay any fears you might have of me being a terminator that can't keep a secret. I'm one pretty big nerd through and through, and I've always loved robots, especially the 1950's space race versions of them. There's something about that style that's always captured my imagination –  it just screams adventure. So I figured, what better than a space race robot as a personal logo? Makes for one nifty catchphrase.</p>
+
+            <p>So sadly, I am not a terminator. What I am is a graphic designer, having graduated from James Madison University with a BA in Graphic Design in May 2016, and having attended on scholarship. About a year and a half of my time there was spent working as a student designer at an on-campus location called Creative Services concurrently with my studies. About four months out I was offered commission for a motion graphic for National League of Cities. Five months out I was offered a job at Lidl Grocers US, a german grocery chain brand new to the American market, in need of one nerdy designer on a team of 9.</p>
+          </div>
+
+    ​      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+            <p>In my time there I had worked on things from weekly leaflets–with my highlight being a design for Heidi Klum's team (which I'm unable to show online due to proprietary concerns) showcasing her line of #Letswow fashion–to a series of motion graphics shown in every store showcasing Lidl's latest deals and products. In addition I was put in charge of art directing a forty page fitness booklet and co-leading the design of every store's price tag along with my manager. Suffice to say it was quite the ride.</p>
+
+            <p>But I'm not done yet! I recently made it through a 6 month web dev program conducted through George Washington University, where I learned fullstack web coding from web servers to web pages! I hope to combine my knowledge of graphic design with this new knowledge of web development, to form a synthesis between the two. I'm currently looking into UI design, frontend web development and fullstack positions as we speak! In my off time I'm furthering my education in coding, looking into making my own online design store, teaching myself illustration techniques, playing my ukulele, swing dancing, and secretly building up my robot arm-...forget you heard that.</p>
+          </div>
+          <div class="col-xl-5 col-lg-5 col-md-5 col-sm-4" id="mePicHolder"></div>
+        </div>
       </div>
 
-      <div class="row textContain">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-3">
-          <p>Hi! I'm Chris, and I'd like to thank you for visiting my website! Your first question upon reading the welcome page was probably something like, "why does this kid call himself a robot?" Well firstly let me allay any fears you might have of me being a terminator that can't keep a secret. I'm one pretty big nerd through and through, and I've always loved robots, especially the 1950's space race versions of them. There's something about that style that's always captured my imagination –  it just screams adventure. So I figured, what better than a space race robot as a personal logo? Makes for one nifty catchphrase.</p>
-
-          <p>So sadly, I am not a terminator. What I am is a graphic designer, having graduated from James Madison University with a BA in Graphic Design in May 2016, and having attended on scholarship. About a year and a half of my time there was spent working as a student designer at an on-campus location called Creative Services concurrently with my studies. About four months out I was offered commission for a motion graphic for National League of Cities. Five months out I was offered a job at Lidl Grocers US, a german grocery chain brand new to the American market, in need of one nerdy designer on a team of 9.</p>
-        </div>
-
-  ​      <div class="col-lg-3">
-          <p>In my time there I had worked on things from weekly leaflets–with my highlight being a design for Heidi Klum's team (which I'm unable to show online due to proprietary concerns) showcasing her line of #Letswow fashion–to a series of motion graphics shown in every store showcasing Lidl's latest deals and products. In addition I was put in charge of art directing a forty page fitness booklet and co-leading the design of every store's price tag along with my manager. Suffice to say it was quite the ride.</p>
-
-          <p>But I'm not done yet! I recently made it through a 6 month web dev program conducted through George Washington University, where I learned fullstack web coding from web servers to web pages! I hope to combine my knowledge of graphic design with this new knowledge of web development, to form a synthesis between the two. I'm currently looking into UI design, frontend web development and fullstack positions as we speak! In my off time I'm furthering my education in coding, looking into making my own online design store, teaching myself illustration techniques, playing my ukulele, swing dancing, and secretly building up my robot arm-....
-
-          ...forget you heard that.</p>
-        </div>
-        <div class="col-lg-5" id="mePicHolder"></div>
-      </div>
+<!--below buttont to be implemented later  -->
+      <!-- <div class="btnWrap3">
+          <a class="scrollBtn smoothScrl scrlDwn" href="#conTop">text</a>
+      </div> -->
+<!------------------------------------------->
     </div>
 
-    <div class="row gutter"></div>
+    <!-- <div class="row gutter" id="conTop"></div> -->
 
-    <div class="row contactWrapper">
-      <div class="row">
-        <div class="col sectionTitle">
-            <h2>Contact</h2>
-        </div>
+    <div class="row contactWrapper" id="cTop">
+      <div class="sectionTitle conT">
+          <h2>Contact</h2>
+      </div>
+      <div>
+        <p>
+          <ul>
+            <li class="liHead">Email</li>
+            <li>ckdesign001@gmail.com</li>
+            <li class="liHead">Github</li>
+            <li><a>https://github.com/robodeco</a></li>
+            <li class="liHead">Linkedin</li>
+            <li><a>https://www.linkedin.com/in/christopher-katalinas-6425095b/</a></li>
+          </ul>
+        </p>
+
+        <p>
+          <h4>Coming Soon</h4>
+          <ul>
+            <li>An option to download my personalized resumé</li>
+            <li>A text-input box to send an email from this webpage</li>
+          </ul>
+        </p>
       </div>
     </div>
 
     <div class="row footer">
-      (footer) powered by: jquery, bootstrap, SASS, baguettebox.js, cloudinary
+      <h3>Website Powered By The Following</h3>
+        <p>jquery, bootstrap, SASS, baguettebox.js, cloudinary</p>
+        <p>© Christopher Katalinas 2018-2019</p>
     </div>
 
   </div>
