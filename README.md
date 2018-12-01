@@ -5,11 +5,11 @@ Every week or so I'm going to push a new version full of changes. Please check o
 
 You may find my roadmap below:
 
-<li>✓✓Fix section layout heights and widths; readjust all section contents accordingly</li>
-<li>✓✓Implement scroll-down and scoll-up interactive buttons in each section</li>
-<li>✓✓Add 'About Me' section </li>
-<li>✓✓Add 'Contact' section </li>
-<li>✓✓Implement footer containing technologies used</li>
+<li>✓ Fix section layout heights and widths; readjust all section contents accordingly</li>
+<li>✓ Implement scroll-down and scoll-up interactive buttons in each section</li>
+<li>✓ Add 'About Me' section </li>
+<li>✓ Add 'Contact' section </li>
+<li>✓ Implement footer containing technologies used</li>
 <br>
 <li>Adjust all fonts in accordance with brand</li>
 <li>Include hamburger navigation menu</li>
