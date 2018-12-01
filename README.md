@@ -25,6 +25,7 @@ Additional Points
 <li>Get rid of scroll overflow-y on certain sections, replace with heights that correspond to breakpoints</li>
 <li>create different sized photos for the lightbox that change based on breakpoints</li>
 <li>responsive font sizes</li>
+<br>
 
 Advanced Features
 <li>Implement animated graphics and transitions</li>
