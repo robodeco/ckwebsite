@@ -38,6 +38,10 @@ Technologies utilized include HTML5/CSS3, jQuery, Bootstrap, SASS, cloudinary, a
 ### Advanced Features
 <li>Implement animated graphics and transitions</li>
 
+### Known Bugs
+<li>arrow glyphicons in bootstrap carousel disappearing after click, reappearing on click away from carousel and hover</li>
+<li>down/button responsiveness and jumping around the page</li>
+
 ## More Info, and Overall Plans for Completion
 
 <ol>
