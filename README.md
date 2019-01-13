@@ -18,7 +18,7 @@ Technologies utilized include HTML5/CSS3, jQuery, Bootstrap, SASS, cloudinary, a
 <li>✓ Added slideshow to each code video demo with a short summary for each</li>
 <li>✓ Fixed package vulnerability in event-stream, rolling back to a previous version</li>
 
-<br>
+
 
 ### What's Left to Do?
 <li>Adjust all fonts in accordance with brand</li>
@@ -30,13 +30,13 @@ Technologies utilized include HTML5/CSS3, jQuery, Bootstrap, SASS, cloudinary, a
 <li>Implement email-sending functionality if possible</li>
 <li>add reset css and cross-browser testing; fix bugs if necessary</li>
 <li>Fix Down/Up Button layout and responsiveness</li>
-<br>
+
 
 ### Additional Points
 <li>Height breakpoints are needed</li>
 <li>create different sized photos for the lightbox that change based on breakpoints</li>
 <li>responsive font sizes</li>
-<br>
+
 
 ### Advanced Features
 <li>Implement animated graphics and transitions</li>
