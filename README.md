@@ -19,6 +19,7 @@ Technologies utilized include HTML5/CSS3, jQuery, Bootstrap, SASS, cloudinary, a
 <li>✓ Fixed package vulnerability in event-stream, rolling back to a previous version</li>
 
 <br>
+
 ### What's Left to Do?
 <li>Adjust all fonts in accordance with brand</li>
 <li>Include hamburger navigation menu</li>
