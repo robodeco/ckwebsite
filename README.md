@@ -4,6 +4,7 @@
 Every week or so I'm going to push a new version full of changes. Please check out the deployed version at https://robodeco.github.io/ckwebsite/ to follow along with my progress! 
 
 **Projected completion time:** End of February/Beginning of March
+<br>
 **Reason for delay:** A combination of holidays, illness, job interviews, and other responsibilities in my personal life
 
 Technologies utilized include HTML5/CSS3, jQuery, Bootstrap, SASS, cloudinary, and baguettebox.js.
