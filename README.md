@@ -44,12 +44,12 @@ Technologies utilized include HTML5/CSS3, jQuery, Bootstrap, SASS, cloudinary, a
 ## More Info, and Overall Plans for Completion
 
 <ol>
- <li><strong>A Note On Overall Functionality Goal</strong></li>
+ <li><strong>A Note On Reaching Overall Functionality Goal</strong></li>
     <p>My own observations in regards to user experience and user interface design is that humans are impatient and modern web pages are generally flashy. These two occurrances occassionally conflict with each other, where the user, wanting to get to a webpage quickly, must first sit through transitions that may take seconds rather than microseconds. In order to work around this issue I'm creating a personal website that has two methods of navigation: a quick way in the form of a sticky navbar on the top, and a "fun" way that involves several flashy transitions and animations.</p>
   <br>
-  <li>A Note On The Down Button</li>
+ <li><strong>A Note On The Down Button</strong></li>
     <p>This button is still in its experimental stages as I figure out how exactly I want to implement it. Responsiveness with it will vary, and it has been known to jump around the page depending on screen height. Changing its location from the bottom of the screen to the side may help mitigate this issue, but further testing is required. 
   <br>
-  <li>Further Detail on Implementing Animated Graphics and Transitions</li>
+     <li><strong>Further Detail on Implementing Animated Graphics and Transitions</strong></li>
     <p>Being a major fan of the Art Deco movement, I'm trying to create a webpage that illicits a similar feel. The navigation transitions are going to include spinning gears that move when an up/down button is clicked, almost like an elevator is going up and down, and changing background colors depending on what part of the page is being viewed. Further animations may be considered depending on success of this transition, which must only cycle when the up/down button is clicked, and never when the navbar links are clicked.</p>
 </ol>
