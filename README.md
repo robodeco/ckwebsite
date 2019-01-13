@@ -18,8 +18,6 @@ Technologies utilized include HTML5/CSS3, jQuery, Bootstrap, SASS, cloudinary, a
 <li>✓ Added slideshow to each code video demo with a short summary for each</li>
 <li>✓ Fixed package vulnerability in event-stream, rolling back to a previous version</li>
 
-
-
 ### What's Left to Do?
 <li>Adjust all fonts in accordance with brand</li>
 <li>Include hamburger navigation menu</li>
@@ -30,7 +28,7 @@ Technologies utilized include HTML5/CSS3, jQuery, Bootstrap, SASS, cloudinary, a
 <li>Implement email-sending functionality if possible</li>
 <li>add reset css and cross-browser testing; fix bugs if necessary</li>
 <li>Fix Down/Up Button layout and responsiveness</li>
-
+<li>Include download button for resumé PDF</li
 
 ### Additional Points
 <li>Height breakpoints are needed</li>
