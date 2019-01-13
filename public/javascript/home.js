@@ -1,6 +1,8 @@
 //when loaded, load at top of document
 $(document).ready(function() {
   $(this).scrollTop(0);
+  //instantiate carousel
+  // $('#text-carousel').carousel();
 });
 
 //instantiate cloudinary
@@ -57,6 +59,7 @@ nlcPlayer.source(nlcSource);
 lidl1Player.source(lidl1Source);
 lidl2Player.source(lidl2Source);
 lidl3Player.source(lidl3Source);
+
 
 // ----------------------------
  // repo button logic

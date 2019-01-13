@@ -1,0 +1,122 @@
+// $upBt: url('../../images/half-circle-btn-up.png');
+$dnBt: url('../../images/half-circle-btn-down.png');
+$dnBt_inv: url('../../images/half-circle-btn-down_inv.png');
+
+#headBtn {
+  position: relative;
+  bottom: 0;
+  left: -49%;
+}
+
+.scrollBtnHead {
+  margin-left: auto;
+  padding-right: 250px;
+  padding-top: 120px;
+  // text-indent: -9999px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: .2s ease-in-out;
+}
+
+.scrlDwn2 {
+    background-image: $dnBt;
+}
+
+.scrlDwn2:hover {
+  background-image: $dnBt_inv;
+  background-size: 225px;
+  padding-right: 275px;
+  padding-top: 130px;
+  // transform: scale(1.5);
+  transform-origin: center bottom;
+  transition: .3s ease-in-out;
+  background-position: center;
+}
+
+.btnWrap {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}
+
+.btnWrap2 {
+  position: absolute;
+  left: 50%;
+  width: 250px;
+  height: 120px;
+  // bottom: 10px;
+}
+
+.scrollBtn2 {
+  // margin-left: auto;
+  position: relative;
+  bottom: -200px;
+  left: -50%;
+  padding-right: 250px;
+  padding-top: 120px;
+  // text-indent: -9999px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: .2s ease-in-out;
+}
+
+// .btnWrap2 {
+//   margin-top: 70px;
+// }
+
+.btnWrap3  {
+  margin-top: 10px;
+}
+
+.smoothScrl {
+  background-color: none;
+}
+
+.scrlDwn {
+  background-image: $dnBt;
+}
+
+.scrlDwn:hover {
+  background-image: $dnBt_inv;
+  transform: scale(1.15);
+  transform-origin: bottom center;
+  transition: .3s ease-in-out;
+}
+
+.scrollBtn {
+  margin: auto;
+  display: block;
+  width: 250px;
+  height: 120px;
+  text-indent: -9999px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: .2s ease-in-out;
+}
+
+#lbButton {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .scrlDwn {
+    display: none;
+  }
+
+  .scrollBtn {
+    display: none;
+    width: 0;
+    height: 0;
+    background-size: 0;
+  }
+
+  .btnWrap {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+}

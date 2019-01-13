@@ -28,6 +28,41 @@ img {
   text-align: center;
 }
 
+//carousel content
+.carousel-content {
+    color: black;
+    align-items: center;
+    width: 100%;
+    text-shadow: none;
+    font-size: 9pt;
+}
+
+.text-carousel {
+  width: 100%;
+  min-height: 140px;
+  margin-top: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  text-shadow: none;
+}
+
+.carousel-control {
+  color: #D4D4D4;
+  background-image: none !important;
+  text-shadow: none;
+
+}
+
+.carousel-control:hover {
+  color: #F5CF1A;
+  background: none;
+  text-shadow: none;
+}
+
+
+//end of carousel content
+
 
 @font-face {
   font-family: "BebasNeue Light";

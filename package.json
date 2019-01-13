@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "baguettebox.js": "^1.11.0",
-    "live-server": "^1.2.0"
+    "event-stream": "^3.3.4",
+    "live-server": "^1.2.1"
   }
 }

@@ -6,9 +6,13 @@ $logo-img: url('../../images/logo-me-big.png');
   line-height: 100%;
 }
 
+// .relTest {
+//   position: relative;
+// }
+
 .header {
   background-color: #F5CF1A;
-  height: 100vh;
+  min-height: 100vh;
   overflow-y: hidden;
   width: 100vw;
 }
