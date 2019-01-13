@@ -44,7 +44,7 @@ Technologies utilized include HTML5/CSS3, jQuery, Bootstrap, SASS, cloudinary, a
 ## More Info, and Overall Plans for Completion
 
 <ol>
-  <li>**A Note On Overall Functionality Goal**</li>
+  **<li>A Note On Overall Functionality Goal</li>**
     <p>My own observations in regards to user experience and user interface design is that humans are impatient and modern web pages are generally flashy. These two occurrances occassionally conflict with each other, where the user, wanting to get to a webpage quickly, must first sit through transitions that may take seconds rather than microseconds. In order to work around this issue I'm creating a personal website that has two methods of navigation: a quick way in the form of a sticky navbar on the top, and a "fun" way that involves several flashy transitions and animations.</p>
   <br>
   <li>**A Note On The Down Button</li>
