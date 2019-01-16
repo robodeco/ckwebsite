@@ -1,7 +1,7 @@
 # ckwebsite
 ## Personal portfolio website in development!
 
-Every week or so I'm going to push a new version full of changes. Please check out the deployed version at https://robodeco.github.io/ckwebsite/ to follow along with my progress! 
+I would like to stress that this is very much a work in progress, and I am still focusing heavily on functionality of various components before I implement a flushed out UX. Every week or so I'm going to push a new version full of changes. Please check out the deployed version at https://robodeco.github.io/ckwebsite/ to follow along with my progress! 
 
 **Projected completion time:** End of February/Beginning of March
 <br>
@@ -27,15 +27,15 @@ Technologies utilized include HTML5/CSS3, jQuery, Bootstrap, SASS, cloudinary, a
 ### What's Left to Do?
 <li>Adjust all fonts in accordance with brand</li>
 <li>Include hamburger navigation menu</li>
-<li>Fix video quality/look into possible solutions via Cloudinary</li>
-<li>Add height breakpoints</li>
+<li>Fix video quality/look into possible solutions via Cloudinary; otherwise use youtube player</li>
 <li>Clean up folder structure if necessary</li>
 <li>Implement email-sending functionality if possible</li>
 <li>Add reset css and cross-browser testing; fix bugs if necessary</li>
-<li>Fix Down/Up Button layout and responsiveness</li>
+<li>Fix Down/Up Button layout and responsiveness; add height breakpoints, or remove altogether and pursue different solution</li>
 <li>Include download button for resumé PDF</li>
-<li>Create different sized photos for the lightbox that change based on breakpoints</li>
+<li>Create different sized photos for the lightbox that change based on breakpoints; make lightbox more user-friendly</li>
 <li>Responsive font sizes</li>
+<li>consolidate slideshows underneath coding samples into one, using a button underneath the videos instead to change whats viewed</li>
 
 ### Advanced Features
 <li>Implement animated graphics and transitions</li>
