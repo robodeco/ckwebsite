@@ -35,7 +35,7 @@ Technologies utilized include HTML5/CSS3, jQuery, Bootstrap, SASS, cloudinary, a
 <li>Include download button for resumé PDF</li>
 <li>Create different sized photos for the lightbox that change based on breakpoints; make lightbox more user-friendly</li>
 <li>Responsive font sizes</li>
-<li>consolidate slideshows underneath coding samples into one, using a button underneath the videos instead to change whats viewed</li>
+<li>consolidate slideshows underneath coding samples into one (similar to a jumbotron), using a button underneath the videos instead to change whats viewed</li>
 <li>Full UX implementation and testing</li>
 
 ### Advanced Features
