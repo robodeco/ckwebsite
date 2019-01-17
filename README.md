@@ -1,7 +1,7 @@
 # ckwebsite
 ## Personal portfolio website in development!
 
-I would like to stress that this is very much a work in progress, and I am still focusing heavily on functionality of various components before I implement a flushed out UX. Every week or so I'm going to push a new version full of changes. Please check out the deployed version at https://robodeco.github.io/ckwebsite/ to follow along with my progress! 
+I would like to stress that this is very much a work in progress, and I am still focusing heavily on functionality of various components before I get to implementing a flushed out UX. Every week or so I'm going to push a new version full of changes. Please check out the deployed version at https://robodeco.github.io/ckwebsite/ to follow along with my progress! 
 
 **Projected completion time:** End of February/Beginning of March
 <br>
