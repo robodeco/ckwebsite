@@ -15,7 +15,7 @@ I would like to stress that this is very much a work in progress, and I am still
 
 **Technologies Utilized**
 <ol>
-#####<li>HTML5/CSS3
+ <li>_HTML5/CSS3_
   <p>Reason: Rather necessary to use for a web application!</p>
  </li> 
  <li>jQuery
