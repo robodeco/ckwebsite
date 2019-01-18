@@ -18,18 +18,18 @@ I would like to stress that this is very much a work in progress, and I am still
  <li><i>HTML5/CSS3</i>
   <p>Reason: Rather necessary to use for a web application!</p>
  </li> 
- <li>jQuery
+ <li><i>jQuery</i>
   <p>Reason: JavaScript is my most well-known language (honestly the only hard-language at this time) and jQuery I've found makes the process much quicker and efficient.</p>
  </li>
- <li>Bootstrap
+ <li><i>Bootstrap</i>
   <p>Reason: Being an open-source library, Bootstrap is well-used, well-tested, and takes most of the stress out of making a responsive web application. It's the responsive framework I'm most familiar with.</p> 
- </li>SASS
+ </li><i>SASS</i>
  <p>Reason: I've always wanted to thoroughly experiment with a more advanced style-sheet processor, and SASS's ability to compartmentalize different segments of CSS code makes it very powerful and efficient. Plus the name alone is fantastic.</p>
  </li>
- <li>Cloudinary
+ <li><i>Cloudinary</i>
   <p>Reason: Embedding youtube videos is powerful, efficient, and produces quality video players. I chose to challenge myself with this project in working with a technology I've never touched before, in order to test my ability to navigate unfamiliar docs. If I'm unable to get it entirely correct I'm going to fall back on the familiar though!</p>
  </li>
- <li>baguettebox.js.
+ <li><i>baguettebox.js</i>
   <p>I've tried making my own lightboxes from scratch in the past, and what I've found is that it is a rather time-consuming process. Further investigation in what was available on NPM yielded baguettebox, a fairly flushed-out lightbox library that I can customize for my own purposes.</p>
  </li>
 </ol>
@@ -59,6 +59,7 @@ I would like to stress that this is very much a work in progress, and I am still
 <li>✓ Parallax functioning</li>
 <li>✓ Cloudinary responding to API call</li>
 <li>✓ Down button functioning with smooth-scroll</li>
+<li>✓ Lightbox made more user-friendly</li>
 
 ### What's Left to Do?
 <li>Adjust all fonts in accordance with brand</li>
@@ -66,7 +67,7 @@ I would like to stress that this is very much a work in progress, and I am still
 <li>Clean up folder structure if necessary</li>
 <li>Add reset css and cross-browser testing; fix bugs if necessary</li>
 <li>Fix Down/Up Button layout and responsiveness; add height breakpoints, or remove altogether and pursue different solution</li>
-<li>Create different sized photos for the lightbox that change based on breakpoints; make lightbox more user-friendly</li>
+<li>Create different sized photos for the lightbox that change based on breakpoints</li>
 <li>Responsive font sizes</li>
 <li>Full UX implementation and testing</li>
 
@@ -79,6 +80,6 @@ I would like to stress that this is very much a work in progress, and I am still
 
 
 ### Known Bugs
-<li>arrow glyphicons in bootstrap carousel disappearing after click, reappearing on click away from carousel and hover</li>
-<li>down/button responsiveness and jumping around the page</li>
+<li>FIXED: arrow glyphicons in bootstrap carousel disappearing after click, reappearing on click away from carousel and hover</li>
+<li>PUT ON HOLD: down/button responsiveness and jumping around the page</li>
 
