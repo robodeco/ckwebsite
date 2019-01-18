@@ -6,9 +6,27 @@ I would like to stress that this is very much a work in progress, and I am still
 **Projected completion time:** End of February/Beginning of March
 <br>
 **Reason for delay:** A combination of holidays, illness, job interviews, and other responsibilities in my personal life
+**Latest Changes 01/17/19:** 
+<ol>
+ <li>Large overhaul of Coding Samples UI/UX</li>
+ <li>Gallery thumbnails made more responsive, overall UI cleaned up</li>
+ <li>Every previous "Down" button except for the one on the splash page has been temporarily commented out, pending further experimentation at a later date</li>
+</ol>
 
-Technologies utilized include HTML5/CSS3, jQuery, Bootstrap, SASS, cloudinary, and baguettebox.js.
-
+**Technologies Utilized**
+<ol>
+ <li>HTML5/CSS3
+  <p>Reason: Rather necessary to use for a web application!</p>
+ </li> 
+ <li>jQuery
+  <p>Reason: JavaScript is my most well-known language (honestly the only hard-language at this time) and jQuery I've found makes the process much quicker and efficient.</p>
+ </li>
+ <li>Bootstrap
+  <p>Reason: Being an open-source library, Bootstrap is well-used, well-tested, and takes most of the stress out of making a responsive web application. It's the responsive framework I'm most familiar with.</p> 
+ </li>SASS
+ <p></p>
+ </li>cloudinary, and baguettebox.js.
+</ol>
 ## More Info, and Overall Plans for Completion
 
 <ol>
