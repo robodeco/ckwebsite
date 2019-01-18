@@ -5,17 +5,35 @@
   overflow-y: auto;
 }
 
+#lbHead {
+  margin-bottom: 90px;
+}
+
 .lbSubHead {
   margin-top: 25px;
   width: 100%;
   text-align: center;
+  font-family: "BebasNeue Regular";
+  color: #727272;
+  font-size: 30pt;
 }
 
 .lightbox {
+  width: 50%;
   margin: auto;
   display: block;
   overflow-x: scroll;
   text-align: center;
+  border: 1px solid grey;
+  padding: 15px;
+
+  p {
+    color: #9E9E9E;
+    font-family: "BebasNeue Regular";
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+  }
 }
 
 .lightbox a {
@@ -25,6 +43,25 @@
   overflow: hidden;
   margin: 5px;
   object-fit: contain;
+}
+
+.galleryThumb {
+  position: relative;
+  border: 1px solid #DDDDDD;
+  background-color: none;
+  transition: rgba(0,0,0,.5);
+}
+
+.galleryThumb:before {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-color: inherit;
+  content: ' ';
+}
+
+.galleryThumb:hover {
+  // opacity: .5;
+  background-color: rgba(245, 207, 26, .4);
 }
 
 // @media only screen and (max-width: 400px) {

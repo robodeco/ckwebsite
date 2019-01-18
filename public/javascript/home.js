@@ -1,8 +1,6 @@
 //when loaded, load at top of document
 $(document).ready(function() {
   $(this).scrollTop(0);
-  //instantiate carousel
-  // $('#text-carousel').carousel();
 });
 
 //instantiate cloudinary

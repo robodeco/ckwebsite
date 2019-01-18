@@ -55,38 +55,12 @@ img {
 
 .sectionTitle {
   width: 100%;
-  height: 15px;
+  height: 35px;
   text-align: center;
 }
-
-.carousel-content {
-  color: black;
-  align-items: center;
-  width: 100%;
-  text-shadow: none;
-  font-size: 9pt;
-}
-
-.text-carousel {
-  width: 100%;
-  min-height: 140px;
-  margin-top: 5px;
-  padding-left: 40px;
-  padding-right: 40px;
-  text-align: center;
-  text-shadow: none;
-}
-
-.carousel-control {
-  color: #D4D4D4;
-  background-image: none !important;
-  text-shadow: none;
-}
-
-.carousel-control:hover {
-  color: #F5CF1A;
-  background: none;
-  text-shadow: none;
+.sectionTitle h2 {
+  font-family: "DecoTechTL";
+  font-size: 50pt;
 }
 
 @font-face {
@@ -123,7 +97,7 @@ img {
 }
 
 #codHRow {
-  height: 80px;
+  min-height: 130px;
   margin-bottom: 5px;
   margin-top: 10px;
   margin-right: 0;
@@ -323,17 +297,34 @@ img {
   overflow-y: auto;
 }
 
+#lbHead {
+  margin-bottom: 90px;
+}
+
 .lbSubHead {
   margin-top: 25px;
   width: 100%;
   text-align: center;
+  font-family: "BebasNeue Regular";
+  color: #727272;
+  font-size: 30pt;
 }
 
 .lightbox {
+  width: 50%;
   margin: auto;
   display: block;
   overflow-x: scroll;
   text-align: center;
+  border: 1px solid grey;
+  padding: 15px;
+}
+.lightbox p {
+  color: #9E9E9E;
+  font-family: "BebasNeue Regular";
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-top: 15px;
 }
 
 .lightbox a {
@@ -343,6 +334,27 @@ img {
   overflow: hidden;
   margin: 5px;
   object-fit: contain;
+}
+
+.galleryThumb {
+  position: relative;
+  border: 1px solid #DDDDDD;
+  background-color: none;
+  transition: rgba(0, 0, 0, 0.5);
+}
+
+.galleryThumb:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: inherit;
+  content: " ";
+}
+
+.galleryThumb:hover {
+  background-color: rgba(245, 207, 26, 0.4);
 }
 
 #mgHead {
@@ -374,6 +386,7 @@ img {
   left: 0;
   right: 0;
   z-index: 5;
+  border-radius: 0;
 }
 
 .navChild {
@@ -401,14 +414,6 @@ img {
   margin-top: 100px;
 }
 
-.btnWrap2 {
-  margin-top: 70px;
-}
-
-.btnWrap3 {
-  margin-top: 10px;
-}
-
 .smoothScrl {
   background-color: none;
 }
@@ -419,27 +424,42 @@ img {
 
 .scrlDwn:hover {
   background-image: url("../../images/half-circle-btn-down_inv.png");
-  transform: scale(1.15);
-  transform-origin: bottom center;
+  background-position: top;
   transition: 0.3s ease-in-out;
 }
 
 .scrollBtn {
-  margin: auto;
+  margin-left: 43.2%;
   display: block;
-  width: 250px;
+  width: 200px;
   height: 120px;
   text-indent: -9999px;
   background-size: 200px;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: top;
   transition: 0.2s ease-in-out;
 }
 
-#lbButton {
-  margin-top: 10px;
+@media only screen and (max-width: 1300px) {
+  .scrollBtn {
+    margin-left: 42%;
+  }
 }
-
+@media only screen and (max-width: 1200px) {
+  .scrollBtn {
+    margin-left: 41.8%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .scrollBtn {
+    margin-left: 40.2%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .scrollBtn {
+    margin-left: 39%;
+  }
+}
 @media only screen and (max-width: 767px) {
   .scrlDwn {
     display: none;
@@ -458,12 +478,30 @@ img {
     height: 0;
   }
 }
+.vRowSpacer {
+  margin-top: 30px;
+}
+
 .video-playerWrap {
-  max-width: 350px;
+  max-width: 480px;
+  padding: 15px;
   width: 100%;
+  min-height: 400px;
   display: inline-block;
-  padding-top: 25px;
   margin: auto;
+  background-color: #FCEFBB;
+  border-radius: 15px;
+}
+.video-playerWrap h3 {
+  font-family: "BebasNeue Bold";
+  font-size: 25pt;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  background-color: #F5CF1A;
+  color: black;
+  height: 40px;
+  margin-top: 0;
+  line-height: 150%;
 }
 
 .video-player__dimensions {
@@ -478,41 +516,100 @@ img {
 }
 
 .repBox {
-  display: inline-block;
-  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
-  width: 100%;
-  height: 30px;
-  clear: both;
-  margin-top: 5px;
-  background-color: orange;
+  width: 50%;
+  min-height: 35px;
+  background-color: white;
+  border-radius: 15px;
+  transition: 0.2s;
+  margin-top: 15px;
 }
-
-.repLink {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  margin: auto;
+.repBox a {
+  font-size: 15px;
+  color: grey;
   width: 100%;
   height: 100%;
-  line-height: 23pt;
-  font-size: 15pt;
 }
 
 .repBox:hover {
-  background-color: white;
-  border: 1px solid orange;
-  color: orange;
+  background-color: grey;
   text-decoration: none;
   cursor: pointer;
+  transition: 0.2s;
 }
 .repBox:hover .repLink {
-  color: orange;
+  color: white;
   text-decoration: none;
+  transition: 0.2s;
 }
 
-.repLink:visited {
+.repBox:active {
+  background-color: black;
+}
+
+.repLink:active {
+  color: #F9E075;
+}
+
+.text-carousel:before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding-bottom: 15px;
+  border-bottom: 1px solid white;
+  background-color: none;
+}
+
+.text-carousel {
+  width: 100%;
+  min-height: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  text-shadow: none;
+}
+
+.text-carousel:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding-bottom: 15px;
+  border-bottom: 1px solid white;
+  background-color: none;
+}
+
+.carousel-content {
+  color: black;
+  align-items: center;
+  width: 100%;
+  text-shadow: none;
+  font-size: 9pt;
+  min-height: 80px;
+}
+
+.carousel-control {
+  width: 5%;
   color: white;
+  text-shadow: none;
+  background-image: none !important;
+  opacity: 1;
+}
+
+.carousel-control:hover {
+  color: grey;
+  background-image: none !important;
+  text-shadow: none;
+}
+
+.glyphicon:hover {
+  color: grey;
+  text-shadow: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
