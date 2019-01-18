@@ -6,6 +6,7 @@ I would like to stress that this is very much a work in progress, and I am still
 **Projected completion time:** End of February/Beginning of March
 <br>
 **Reason for delay:** A combination of holidays, illness, job interviews, and other responsibilities in my personal life
+<br>
 **Latest Changes 01/17/19:** 
 <ol>
  <li>Large overhaul of Coding Samples UI/UX</li>
