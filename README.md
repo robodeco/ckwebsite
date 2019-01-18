@@ -15,7 +15,7 @@ I would like to stress that this is very much a work in progress, and I am still
 
 **Technologies Utilized**
 <ol>
- <li>HTML5/CSS3
+ <li>#####HTML5/CSS3
   <p>Reason: Rather necessary to use for a web application!</p>
  </li> 
  <li>jQuery
@@ -24,9 +24,16 @@ I would like to stress that this is very much a work in progress, and I am still
  <li>Bootstrap
   <p>Reason: Being an open-source library, Bootstrap is well-used, well-tested, and takes most of the stress out of making a responsive web application. It's the responsive framework I'm most familiar with.</p> 
  </li>SASS
- <p></p>
- </li>cloudinary, and baguettebox.js.
+ <p>Reason: I've always wanted to thoroughly experiment with a more advanced style-sheet processor, and SASS's ability to compartmentalize different segments of CSS code makes it very powerful and efficient. Plus the name alone is fantastic.</p>
+ </li>
+ <li>Cloudinary
+  <p>Reason: Embedding youtube videos is powerful, efficient, and produces quality video players. I chose to challenge myself with this project in working with a technology I've never touched before, in order to test my ability to navigate unfamiliar docs. If I'm unable to get it entirely correct I'm going to fall back on the familiar though!</p>
+ </li>
+ <li>baguettebox.js.
+  <p>I've tried making my own lightboxes from scratch in the past, and what I've found is that it is a rather time-consuming process. Further investigation in what was available on NPM yielded baguettebox, a fairly flushed-out lightbox library that I can customize for my own purposes.</p>
+ </li>
 </ol>
+
 ## More Info, and Overall Plans for Completion
 
 <ol>
