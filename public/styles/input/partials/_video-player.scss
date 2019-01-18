@@ -8,12 +8,12 @@
   width: 100%;
   min-height: 400px;
   display: inline-block;
-  margin: auto;
+  margin: 15px auto auto auto;
   background-color: #FCEFBB;
   // background-color: #F7E492;
   border-radius: 15px;
 
-  h3 {
+  .sampleTitle {
     font-family: "BebasNeue Bold";
     font-size: 25pt;
     border-radius: 10px;
@@ -21,14 +21,73 @@
     background-color: #F5CF1A;
     color: black;
     height: 40px;
-    margin-top: 0;
-    line-height: 37pt;
+    text-align: center;
+  }
+}
+
+.video-playerWrap_mg {
+  // max-width: 480px;
+  padding: 0 15px 15px 15px;
+  width: 100%;
+  min-height: 300px;
+  display: inline-block;
+  margin: 15px auto auto auto;
+  background-color: #FCEFBB;
+  border-radius: 15px;
+
+  .sampleTitle {
+    font-family: "BebasNeue Bold";
+    font-size: 25pt;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    background-color: #F5CF1A;
+    color: black;
+    height: 40px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-family: "CenturyGothic Regular";
+    margin-top: 15px;
+    font-size: 11pt;
+  }
+}
+
+.video-playerWrap_mg--skinny {
+  // max-width: 480px;
+  padding: 0 15px 15px 15px;
+  width: 100%;
+  min-height: 315px;
+  display: inline-block;
+  margin: 15px auto auto auto;
+  background-color: #FCEFBB;
+  border-radius: 15px;
+
+  .sampleTitle {
+    font-family: "BebasNeue Bold";
+    font-size: 17.5pt;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    background-color: #F5CF1A;
+    color: black;
+    height: 30px;
+    text-align: center;
+    padding-top: 1px;
+  }
+
+  p {
+    font-family: "CenturyGothic Regular";
+    margin-top: 15px;
+    font-size: 10pt;
+    text-align: center;
   }
 }
 
 .video-player__dimensions {
   max-height: 150px;
   max-width: 100%;
+  width: 100%;
 }
 
 .videoRow {
@@ -107,12 +166,17 @@
 }
 
 .text-carousel {
+  font-family: "CenturyGothic Regular";
   width: 100%;
-  min-height: 80px;
+  min-height: 130px;
   padding-left: 40px;
   padding-right: 40px;
   text-align: center;
   text-shadow: none;
+
+  h5 {
+    font-family: "CenturyGothic Bold";
+  }
 }
 
 .text-carousel:after {
@@ -130,21 +194,9 @@
   align-items: center;
   width: 100%;
   text-shadow: none;
-  font-size: 9pt;
-  min-height: 80px;
+  font-size: 8pt;
+  min-height: 130px;
 }
-
-// .left .right {
-//   color: #F5CF1A;
-//   background-image: none !important;
-//   text-shadow: none;
-// }
-//
-// .left:hover, .right:hover {
-//   color: #F5CF1A;
-//   background-image: none !important;
-//   text-shadow: none;
-// }
 
 .carousel-control {
   width: 5%;
@@ -152,6 +204,7 @@
   text-shadow: none;
   background-image: none !important;
   opacity: 1;
+  z-index: 0;
 }
 
 .carousel-control:hover {
@@ -163,5 +216,34 @@
 .glyphicon:hover {
   color: grey;
   text-shadow: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .carousel-content {
+    font-size: 11.5pt;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .carousel-content {
+    font-size: 8pt;
+    min-height: 145px;
+  }
+
+  .text-carousel {
+    min-height: 145px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .carousel-content {
+    font-size: 12pt;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .carousel-content {
+    font-size: 10.5pt;
+  }
 }
 //end of carousel content

@@ -2,9 +2,9 @@
 $dnBt: url('../../images/half-circle-btn-down.png');
 $dnBt_inv: url('../../images/half-circle-btn-down_inv.png');
 
-#headBtn {
-  margin-top: 85vh;
-}
+// #headBtn {
+//   margin-top: 85vh;
+// }
 
 .btnWrap {
   margin-top: 100px;
@@ -28,53 +28,58 @@ $dnBt_inv: url('../../images/half-circle-btn-down_inv.png');
 
 .scrlDwn:hover {
   background-image: $dnBt_inv;
-  background-position: top;
-  // transform-origin: center;
+  background-position: center;
   transition: .3s ease-in-out;
 }
 
+.buttonAlign {
+  width: 242px;
+  margin: auto;
+  text-align: center;
+}
+
 .scrollBtn {
-  margin-left: 43.2%;
-  display: block;
-  width: 200px;
+  display: inline-block;
+  width: 249px;
   height: 120px;
+  // padding: 50px;
   text-indent: -9999px;
+  text-align: center;
   background-size: 200px;
   background-repeat: no-repeat;
-  background-position: top;
-  // transform-origin: center;
+  background-position: center;
   transition: .2s ease-in-out;
+  margin: auto;
 }
 
-// #lbButton {
-//   margin-top: 10px;
+
+// @media only screen and (max-width: 1300px) {
+//
+//   .scrollBtn {
+//     margin-top: 40px;
+//   }
 // }
-@media only screen and (max-width: 1300px) {
-
-  .scrollBtn {
-    margin-left: 42%;
-  }
-}
 
 
 @media only screen and (max-width: 1200px) {
 
   .scrollBtn {
-    margin-left: 41.8%;
+    margin-top: 50px;
+    width: 246px;
   }
 }
 
 @media only screen and (max-width: 1000px) {
 
   .scrollBtn {
-    margin-left: 40.2%;
+    margin-top: 60px;
   }
 }
 
 @media only screen and (max-width: 900px) {
 
   .scrollBtn {
-    margin-left: 39%;
+    margin-top: 70px;
   }
 }
 
