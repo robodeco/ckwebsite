@@ -15,19 +15,26 @@
 
   .sampleTitle {
     font-family: "BebasNeue Bold";
-    font-size: 25pt;
+    width: 100%;
+    font-size: 22pt;
     border-radius: 10px;
     letter-spacing: 1px;
     background-color: #F5CF1A;
     color: black;
     height: 40px;
-    text-align: center;
+    line-height: 46px;
+    margin-bottom: 10px;
+
+    p {
+      height: 100%;
+      text-align: center;
+    }
   }
 }
 
 .video-playerWrap_mg {
   // max-width: 480px;
-  padding: 0 15px 15px 15px;
+  padding: 15px;
   width: 100%;
   min-height: 300px;
   display: inline-block;
@@ -44,9 +51,11 @@
     color: black;
     height: 40px;
     text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 
-  p {
+  .samplePar {
     text-align: center;
     font-family: "CenturyGothic Regular";
     margin-top: 15px;
@@ -56,7 +65,7 @@
 
 .video-playerWrap_mg--skinny {
   // max-width: 480px;
-  padding: 0 15px 15px 15px;
+  padding: 15px;
   width: 100%;
   min-height: 300px;
   display: inline-block;
@@ -74,9 +83,10 @@
     height: 30px;
     text-align: center;
     padding-top: 1px;
+    margin-bottom: 10px;
   }
 
-  p {
+  .samplePar {
     font-family: "CenturyGothic Regular";
     margin-top: 15px;
     font-size: 10pt;
@@ -97,6 +107,7 @@
 }
 
 .repBox {
+  border: 1px solid #F5CF1A;
   display: inline-flex;
   flex-direction: row;
   justify-content: center;
@@ -120,6 +131,7 @@
 
 .repBox:hover {
   background-color: grey;
+  border: 1px solid grey;
   text-decoration: none;
   cursor: pointer;
   transition: .2s;

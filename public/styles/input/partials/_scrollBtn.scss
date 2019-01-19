@@ -32,23 +32,23 @@ $dnBt_inv: url('../../images/half-circle-btn-down_inv.png');
   transition: .3s ease-in-out;
 }
 
-.buttonAlign {
-  width: 242px;
-  margin: auto;
+.buttonParent {
+  display: inline-block;
+  width: 100%;
+  margin-left: 0;
   text-align: center;
 }
 
 .scrollBtn {
   display: inline-block;
-  width: 249px;
+  width: 240px;
   height: 120px;
-  // padding: 50px;
   text-indent: -9999px;
-  text-align: center;
   background-size: 200px;
   background-repeat: no-repeat;
   background-position: center;
   transition: .2s ease-in-out;
+  text-decoration: none;
   margin: auto;
 }
 
@@ -61,27 +61,27 @@ $dnBt_inv: url('../../images/half-circle-btn-down_inv.png');
 // }
 
 
-@media only screen and (max-width: 1200px) {
-
-  .scrollBtn {
-    margin-top: 50px;
-    width: 246px;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-
-  .scrollBtn {
-    margin-top: 60px;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-
-  .scrollBtn {
-    margin-top: 70px;
-  }
-}
+// @media only screen and (max-width: 1200px) {
+//
+//   .scrollBtn {
+//     margin-top: 50px;
+//     width: 246px;
+//   }
+// }
+//
+// @media only screen and (max-width: 1000px) {
+//
+//   .scrollBtn {
+//     margin-top: 60px;
+//   }
+// }
+//
+// @media only screen and (max-width: 900px) {
+//
+//   .scrollBtn {
+//     margin-top: 70px;
+//   }
+// }
 
 @media only screen and (max-width: 767px) {
 
