@@ -3,7 +3,7 @@
   background-color: white;
   margin-top: 25px;
   margin-left: 0;
-  overflow-y: auto;
+  // overflow-y: auto;
 }
 
 .textContain {
@@ -27,4 +27,10 @@
 
 #abmeHead {
   margin: 0;
+}
+
+@media only screen and (min-width: 1000px) {
+  #mePicHolder {
+    background-size: 400px;
+  }
 }

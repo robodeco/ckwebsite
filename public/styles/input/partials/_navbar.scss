@@ -1,12 +1,16 @@
 $fullsize: 50px;
+$brandColorPrimary: #F5CF1A;
 
 .navbarSticky {
   background-color: black;
   color: white;
   display: flex;
   flex-direction: row;
+  font-family: "DolceVita";
+  letter-spacing: 1.5pt;
   height: $fullsize;
   position: fixed;
+  padding: 5px;
   overflow: hidden;
   top: 0;
   width: 100%;
@@ -14,15 +18,23 @@ $fullsize: 50px;
   right: 0;
   z-index: 5;
   border-radius: 0;
+  text-align: center;
 }
 
 .navChild {
   margin: auto;
+  text-align: center;
+  font-size: 12pt;
+  word-wrap: break-word;
+  width: 500px;
 }
 
 .pageJump {
   text-decoration: none;
   color: white;
+  padding: 7px;
+  border-radius: 15px;
+  transition-duration: .2s;
 }
 
 .pageJump:visited {
@@ -30,5 +42,20 @@ $fullsize: 50px;
 }
 
 .pageJump:hover {
-  color: #F5CF1A
+  color: black;
+  text-decoration: none;
+  background-color: $brandColorPrimary;
+  transition-duration: .2s;
+}
+
+@media only screen and (max-width: 800px) {
+  .navChild {
+    font-size: 9pt;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navChild {
+    font-size: 7.5pt;
+  }
 }

@@ -58,7 +58,7 @@
   // max-width: 480px;
   padding: 0 15px 15px 15px;
   width: 100%;
-  min-height: 315px;
+  min-height: 300px;
   display: inline-block;
   margin: 15px auto auto auto;
   background-color: #FCEFBB;
@@ -238,6 +238,12 @@
 @media only screen and (max-width: 767px) {
   .carousel-content {
     font-size: 12pt;
+  }
+
+  .video-playerWrap_mg--skinny {
+    p {
+      font-size: 12pt;
+    }
   }
 }
 

@@ -4,7 +4,6 @@
   background-color: white;
   margin-top: 25px;
   margin-left: 0;
-  overflow-y: auto;
 }
 
 .textContain {
@@ -30,6 +29,11 @@
   margin: 0;
 }
 
+@media only screen and (min-width: 1000px) {
+  #mePicHolder {
+    background-size: 400px;
+  }
+}
 html, body {
   max-height: 100%;
   max-width: 100%;
@@ -62,6 +66,9 @@ img {
 .sectionTitle h2 {
   font-family: "DecoTechTL";
   font-size: 50pt;
+}
+.sectionTitle p {
+  font-family: "CenturyGothic Regular";
 }
 
 @font-face {
@@ -157,9 +164,9 @@ img {
   word-wrap: break-word;
 }
 .contactWrapper a {
-  text-decoration: none;
   color: white;
   cursor: pointer;
+  text-decoration: underline;
 }
 .contactWrapper a:hover {
   color: #F5CF1A;
@@ -177,13 +184,34 @@ img {
   text-align: center;
 }
 
-#warning {
-  font-family: helvetica;
-  font-size: 20px;
-  line-height: 100%;
+.announceBox {
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+  border: 1px solid black;
+  font-size: 15px;
 }
-#warning strong {
-  color: red;
+.announceBox #annTitle {
+  font-family: "CenturyGothic Bold";
+  line-height: 130%;
+}
+.announceBox #annBody {
+  font-family: "CenturyGothic Regular";
+  line-height: 130%;
+  background-color: none;
+  margin-bottom: 3px;
+}
+.announceBox a {
+  color: black;
+  border: 0.5px solid black;
+  padding: 0px 6px 1px 5.5px;
+  border-radius: 15px;
+  transition-duration: 0.3s;
+}
+.announceBox a:hover {
+  color: #F9F9F9;
+  border: 0.5px solid #F9F9F9;
+  transition-duration: 0.2s;
 }
 
 .header {
@@ -214,7 +242,9 @@ img {
   text-align: center;
   line-height: 100%;
 }
-
+.nameBox #nameName {
+  margin-bottom: 0;
+}
 .subBox {
   font-family: "DolceVita";
   text-align: center;
@@ -223,9 +253,21 @@ img {
   font-size: 4vw;
   line-height: 100%;
 }
-
 .subBox ul {
   padding: 0;
+}
+
+.ulSpin {
+  transition-duration: 0.2s;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+}
+
+.ulSpin:hover {
+  cursor: default;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  transition-duration: 0.4s;
 }
 
 @media only screen and (max-width: 767px) {
@@ -344,7 +386,8 @@ img {
   position: relative;
   border: 1px solid #DDDDDD;
   background-color: none;
-  transition: rgba(0, 0, 0, 0.5);
+  transition: rgba(0, 0, 0, 0.1);
+  transition-duration: 0.3s;
 }
 
 .galleryThumb:before {
@@ -358,7 +401,7 @@ img {
 }
 
 .galleryThumb:hover {
-  background-color: rgba(245, 207, 26, 0.4);
+  background-color: rgba(255, 240, 97, 0.7);
 }
 
 #mgHead {
@@ -382,8 +425,11 @@ img {
   color: white;
   display: flex;
   flex-direction: row;
+  font-family: "DolceVita";
+  letter-spacing: 1.5pt;
   height: 50px;
   position: fixed;
+  padding: 5px;
   overflow: hidden;
   top: 0;
   width: 100%;
@@ -391,15 +437,23 @@ img {
   right: 0;
   z-index: 5;
   border-radius: 0;
+  text-align: center;
 }
 
 .navChild {
   margin: auto;
+  text-align: center;
+  font-size: 12pt;
+  word-wrap: break-word;
+  width: 500px;
 }
 
 .pageJump {
   text-decoration: none;
   color: white;
+  padding: 7px;
+  border-radius: 15px;
+  transition-duration: 0.2s;
 }
 
 .pageJump:visited {
@@ -407,9 +461,22 @@ img {
 }
 
 .pageJump:hover {
-  color: #F5CF1A;
+  color: black;
+  text-decoration: none;
+  background-color: #F5CF1A;
+  transition-duration: 0.2s;
 }
 
+@media only screen and (max-width: 800px) {
+  .navChild {
+    font-size: 9pt;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .navChild {
+    font-size: 7.5pt;
+  }
+}
 .btnWrap {
   margin-top: 100px;
 }
@@ -535,7 +602,7 @@ img {
 .video-playerWrap_mg--skinny {
   padding: 0 15px 15px 15px;
   width: 100%;
-  min-height: 315px;
+  min-height: 300px;
   display: inline-block;
   margin: 15px auto auto auto;
   background-color: #FCEFBB;
@@ -690,6 +757,10 @@ img {
 }
 @media only screen and (max-width: 767px) {
   .carousel-content {
+    font-size: 12pt;
+  }
+
+  .video-playerWrap_mg--skinny p {
     font-size: 12pt;
   }
 }
