@@ -1,13 +1,18 @@
 .contactWrapper {
+  font-family: 'CenturyGothic Regular';
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 55vh;
+  height: 80vh;
   background-color: #2D2D2D;
   margin-left: 0;
   text-align: center;
   color: white;
   overflow: hidden;
+
+  .sectionTitle {
+    margin-bottom: 0;
+  }
 
   p {
     word-wrap: break-word;
@@ -29,11 +34,25 @@
   }
 }
 
-.liHead {
-  font-size: 14pt;
+.contTitle {
+  font-family: 'CenturyGothic Bold';
+  font-size: 16pt;
+}
+
+.contLiPad {
   margin-top: 15px;
 }
 
-// .conT {
-//   // margin-top: 25px;
-// }
+.coSoonTitle {
+  font-size: 16pt;
+  font-family: 'CenturyGothic Bold';
+}
+
+.coSoonBox {
+  border: 1px solid white;
+  width: 20%;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-top: 35px;
+}

@@ -146,15 +146,19 @@ img {
 }
 
 .contactWrapper {
+  font-family: "CenturyGothic Regular";
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 55vh;
+  height: 80vh;
   background-color: #2D2D2D;
   margin-left: 0;
   text-align: center;
   color: white;
   overflow: hidden;
+}
+.contactWrapper .sectionTitle {
+  margin-bottom: 0;
 }
 .contactWrapper p {
   word-wrap: break-word;
@@ -172,9 +176,27 @@ img {
   color: #F5CF1A;
 }
 
-.liHead {
-  font-size: 14pt;
+.contTitle {
+  font-family: "CenturyGothic Bold";
+  font-size: 16pt;
+}
+
+.contLiPad {
   margin-top: 15px;
+}
+
+.coSoonTitle {
+  font-size: 16pt;
+  font-family: "CenturyGothic Bold";
+}
+
+.coSoonBox {
+  border: 1px solid white;
+  width: 20%;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-top: 35px;
 }
 
 .footer {
