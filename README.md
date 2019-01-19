@@ -12,6 +12,7 @@ I would like to stress that this is very much a work in progress, and I am still
 <p>list made with ascending priority</p>
 <ol>
  <li>CSS/HTML reset</li>
+ <li>Fix some small layouting issues</li>
  <li>Hamburger Menu</li>
  <li>Add buttons in coding section to take user to unfinished project repos at github</li>
  <li>Fix spacing between video rows when screen is resized</li>
