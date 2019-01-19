@@ -31,7 +31,7 @@ I would like to stress that this is very much a work in progress, and I am still
  <li>Fonts added; all fonts now correspond with brand</li>
 </ol>
 
-Changes 01/17/19
+**Changes 01/17/19**
 <ol>
  <li>Large overhaul of Coding Samples UI/UX</li>
  <li>Gallery thumbnails made more responsive, overall UI cleaned up</li>
