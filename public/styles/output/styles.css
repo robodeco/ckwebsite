@@ -255,12 +255,11 @@ img {
 .nameBox {
   font-family: "DecoTech";
   display: inline-block;
-  height: 300px;
+  height: 250px;
   width: 80%;
   margin-top: 40vh;
   margin-left: 0;
   font-size: 9vw;
-  max-height: 200px;
   text-align: center;
   line-height: 100%;
 }
@@ -517,41 +516,26 @@ img {
   transition: 0.3s ease-in-out;
 }
 
-.buttonAlign {
-  width: 242px;
-  margin: auto;
+.buttonParent {
+  display: inline-block;
+  width: 100%;
+  margin-left: 0;
   text-align: center;
 }
 
 .scrollBtn {
   display: inline-block;
-  width: 249px;
+  width: 240px;
   height: 120px;
   text-indent: -9999px;
-  text-align: center;
   background-size: 200px;
   background-repeat: no-repeat;
   background-position: center;
   transition: 0.2s ease-in-out;
+  text-decoration: none;
   margin: auto;
 }
 
-@media only screen and (max-width: 1200px) {
-  .scrollBtn {
-    margin-top: 50px;
-    width: 246px;
-  }
-}
-@media only screen and (max-width: 1000px) {
-  .scrollBtn {
-    margin-top: 60px;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .scrollBtn {
-    margin-top: 70px;
-  }
-}
 @media only screen and (max-width: 767px) {
   .scrlDwn {
     display: none;
@@ -586,17 +570,23 @@ img {
 }
 .video-playerWrap .sampleTitle {
   font-family: "BebasNeue Bold";
-  font-size: 25pt;
+  width: 100%;
+  font-size: 22pt;
   border-radius: 10px;
   letter-spacing: 1px;
   background-color: #F5CF1A;
   color: black;
   height: 40px;
+  line-height: 46px;
+  margin-bottom: 10px;
+}
+.video-playerWrap .sampleTitle p {
+  height: 100%;
   text-align: center;
 }
 
 .video-playerWrap_mg {
-  padding: 0 15px 15px 15px;
+  padding: 15px;
   width: 100%;
   min-height: 300px;
   display: inline-block;
@@ -613,8 +603,10 @@ img {
   color: black;
   height: 40px;
   text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
-.video-playerWrap_mg p {
+.video-playerWrap_mg .samplePar {
   text-align: center;
   font-family: "CenturyGothic Regular";
   margin-top: 15px;
@@ -622,7 +614,7 @@ img {
 }
 
 .video-playerWrap_mg--skinny {
-  padding: 0 15px 15px 15px;
+  padding: 15px;
   width: 100%;
   min-height: 300px;
   display: inline-block;
@@ -640,8 +632,9 @@ img {
   height: 30px;
   text-align: center;
   padding-top: 1px;
+  margin-bottom: 10px;
 }
-.video-playerWrap_mg--skinny p {
+.video-playerWrap_mg--skinny .samplePar {
   font-family: "CenturyGothic Regular";
   margin-top: 15px;
   font-size: 10pt;
@@ -661,6 +654,7 @@ img {
 }
 
 .repBox {
+  border: 1px solid #F5CF1A;
   display: inline-flex;
   flex-direction: row;
   justify-content: center;
@@ -682,6 +676,7 @@ img {
 
 .repBox:hover {
   background-color: grey;
+  border: 1px solid grey;
   text-decoration: none;
   cursor: pointer;
   transition: 0.2s;

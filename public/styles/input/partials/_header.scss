@@ -39,6 +39,7 @@ $logo-img: url('../../images/logo-me-big.png');
   min-height: 100vh;
   overflow-y: hidden;
   width: 100vw;
+  // text-align: center;
 }
 
 .header_parallax {
@@ -53,12 +54,12 @@ $logo-img: url('../../images/logo-me-big.png');
 .nameBox {
   font-family: "DecoTech";
   display: inline-block;
-  height: 300px;
+  height: 250px;
   width: 80%;
   margin-top: 40vh;
   margin-left: 0;
   font-size: 9vw;
-  max-height: 200px;
+  // max-height: 300px;
   text-align: center;
   line-height: 100%;
 

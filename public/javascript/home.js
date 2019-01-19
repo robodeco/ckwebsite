@@ -3,6 +3,7 @@ $(document).ready(function() {
   $(this).scrollTop(0);
 });
 
+
 //instantiate cloudinary
 const cld = cloudinary.Cloudinary.new({ cloud_name: "clckport", secure: true });
 
