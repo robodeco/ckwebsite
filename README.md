@@ -16,6 +16,7 @@ I would like to stress that this is very much a work in progress, and I am still
  <li>Add buttons in coding section to take user to unfinished project repos at github</li>
  <li>Fix spacing between video rows when screen is resized</li>
  <li>Set up button that allows user to download personal resumé on click</li>
+ <li>Fix slideshows underneath videos/find an alternative</li>
  <li>Look at cloudinary file quality; possibly pursue other video players</li>
  <li>Advanced animated graphics and transitions</li>
  <li>Email-sending ability and whether its possible without Node.js</li>
