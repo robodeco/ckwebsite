@@ -28,7 +28,7 @@ I would like to stress that this is very much a work in progress, and I am still
  <li>Total UI overhaul, with the Motion Graphics section having the largest update</li>
  <li>Bug Fixed: Arrow Glyphicons from bootstrap carousel hovering over navbar upon scrolling</li>
  <li>Bootstrap carousel fonts made responsive. Alternative to the carousel may be needed, or at least be consolidated, as it has a tendency to bump content on the page when the screen width changes, which is bad practice.</li>
- <li>Down button on splash page made responsive</li>
+ <li>Down button on splash page made largely responsive, though issues are still had with bigger screens from a laptop</li>
 </ol>
 
 **Changes 01/17/19**
