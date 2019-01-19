@@ -109,6 +109,6 @@ I would like to stress that this is very much a work in progress, and I am still
 <li>FIXED: arrow glyphicons in bootstrap carousel disappearing after click, reappearing on click away from carousel and hover</li>
 <li>FIXED: arrow glyphicon z-order wrong, would go over navbar upon scrolling</li>
 <li>PUT ON HOLD: down/button responsiveness and jumping around the page</li>
-<li>Line-heights of Coding titles need to be fixed; unresponsive bug</li>
+<li>Line-heights of Coding titles changes depending whether on mac or PC</li>
 <li>Down-button at the very top needs to have a massive overhall to keep it in the middle at all times</li>
 
