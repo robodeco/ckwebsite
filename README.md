@@ -8,7 +8,7 @@ I would like to stress that this is very much a work in progress, and I am still
 **Reason for delay:** A combination of holidays, illness, job interviews, and other responsibilities in my personal life
 <br>
 <br>
-**Docket**
+### Docket
 <p>list made with ascending priority</p>
 <ol>
  <li>CSS/HTML reset</li>
@@ -40,7 +40,7 @@ I would like to stress that this is very much a work in progress, and I am still
  <li>Slideshow text boxes underneath videos continue to bump the webpage. Bad practice; another 
 </ol>
 
-**Technologies Utilized**
+### Technologies Utilized
 <ol>
  <li><i>HTML5/CSS3</i>
   <p>Reason: Rather necessary to use for a web application!</p>
