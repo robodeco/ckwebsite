@@ -8,11 +8,35 @@ I would like to stress that this is very much a work in progress, and I am still
 **Reason for delay:** A combination of holidays, illness, job interviews, and other responsibilities in my personal life
 <br>
 <br>
-**Latest Changes 01/17/19:** 
+**Docket**
+<p>list made with ascending priority</p>
+<ol>
+ <li>CSS/HTML reset</li>
+ <li>Hamburger Menu</li>
+ <li>Add buttons in coding section to take user to unfinished project repos at github</li>
+ <li>Fix spacing between video rows when screen is resized</li>
+ <li>Set up button that allows user to download personal resumé on click</li>
+ <li>Look at cloudinary file quality; possibly pursue other video players</li>
+ <li>Advanced animated graphics and transitions</li>
+ <li>Email-sending ability and whether its possible without Node.js</li>
+ <li>Folder structure cleanup, bug-testing, cross-browser testing, and findal UX testing</li>
+</ol>
+ 
+**Latest Changes 01/18/19**
+<ol>
+ <li>Total UI overhaul, with the Motion Graphics section having the largest update</li>
+ <li>Bug Fixed: Arrow Glyphicons from bootstrap carousel hovering over navbar upon scrolling</li>
+ <li>Bootstrap carousel fonts made responsive; alternative to the carousel may be needed, or at least be consolidated, as it has a tendency to bump content on the page as it is now, which is bad practice.</li>
+ <li>Down button on splash page made responsive</li>
+ <li>Fonts added; all fonts now correspond with brand</li>
+</ol>
+<br>
+Changes 01/17/19
 <ol>
  <li>Large overhaul of Coding Samples UI/UX</li>
  <li>Gallery thumbnails made more responsive, overall UI cleaned up</li>
  <li>Every previous "Down" button except for the one on the splash page has been temporarily commented out, pending further experimentation at a later date</li>
+ <li>Change in down button inverse image dimensions</li>
 </ol>
 
 **Technologies Utilized**
@@ -62,9 +86,9 @@ I would like to stress that this is very much a work in progress, and I am still
 <li>✓ Cloudinary responding to API call</li>
 <li>✓ Down button functioning with smooth-scroll</li>
 <li>✓ Lightbox made more user-friendly</li>
+<li>✓ All fonts made to match brand</li>
 
 ### What's Left to Do?
-<li>Adjust all fonts in accordance with brand</li>
 <li>Fix video quality/look into possible solutions via Cloudinary; otherwise use youtube player</li>
 <li>Clean up folder structure if necessary</li>
 <li>Add reset css and cross-browser testing; fix bugs if necessary</li>
@@ -74,7 +98,7 @@ I would like to stress that this is very much a work in progress, and I am still
 <li>Full UX implementation and testing</li>
 
 ### Plans for Advanced Features
-<li>Implement animated graphics and transitions</li>
+<li>Implement animated graphics and transitions (see "More Info, and Overall Plans for Completion" for more details)</li>
 <li>Implement email-sending functionality if possible</li>
 <li>consolidate slideshows underneath coding samples into one (similar to a jumbotron), using a button underneath the videos instead to change whats viewed</li>
 <li>Include download button for resumé PDF</li>
@@ -83,6 +107,7 @@ I would like to stress that this is very much a work in progress, and I am still
 
 ### Known Bugs
 <li>FIXED: arrow glyphicons in bootstrap carousel disappearing after click, reappearing on click away from carousel and hover</li>
+<li>FIXED: arrow glyphicon z-order wrong, would go over navbar upon scrolling</li>
 <li>PUT ON HOLD: down/button responsiveness and jumping around the page</li>
 <li>Line-heights of Coding titles need to be fixed; unresponsive bug</li>
 <li>Down-button at the very top needs to have a massive overhall to keep it in the middle at all times</li>
