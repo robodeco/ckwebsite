@@ -26,9 +26,8 @@ I would like to stress that this is very much a work in progress, and I am still
 <ol>
  <li>Total UI overhaul, with the Motion Graphics section having the largest update</li>
  <li>Bug Fixed: Arrow Glyphicons from bootstrap carousel hovering over navbar upon scrolling</li>
- <li>Bootstrap carousel fonts made responsive; alternative to the carousel may be needed, or at least be consolidated, as it has a tendency to bump content on the page as it is now, which is bad practice.</li>
+ <li>Bootstrap carousel fonts made responsive. Alternative to the carousel may be needed, or at least be consolidated, as it has a tendency to bump content on the page when the screen width changes, which is bad practice.</li>
  <li>Down button on splash page made responsive</li>
- <li>Fonts added; all fonts now correspond with brand</li>
 </ol>
 
 **Changes 01/17/19**
@@ -37,6 +36,8 @@ I would like to stress that this is very much a work in progress, and I am still
  <li>Gallery thumbnails made more responsive, overall UI cleaned up</li>
  <li>Every previous "Down" button except for the one on the splash page has been temporarily commented out, pending further experimentation at a later date</li>
  <li>Change in down button inverse image dimensions</li>
+ <li>Discovered a bug involving the line-height of video titles; looks fine on a mac, not on pac</li>
+ <li>Slideshow text boxes underneath videos continue to bump the webpage. Bad practice; another 
 </ol>
 
 **Technologies Utilized**
