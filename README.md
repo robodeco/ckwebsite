@@ -30,7 +30,7 @@ I would like to stress that this is very much a work in progress, and I am still
  <li>Down button on splash page made responsive</li>
  <li>Fonts added; all fonts now correspond with brand</li>
 </ol>
-<br>
+
 Changes 01/17/19
 <ol>
  <li>Large overhaul of Coding Samples UI/UX</li>
