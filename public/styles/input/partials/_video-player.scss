@@ -19,7 +19,6 @@
 
   .sampleTitle {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: "BebasNeue Bold";
@@ -29,8 +28,10 @@
     letter-spacing: 1px;
     background-color: #F5CF1A;
     color: black;
-    height: 40px;
+    max-height: 42px;
     margin-bottom: 10px;
+    margin-top: 0;
+    padding-top: 2px;
 
     p {
       height: 60%;
@@ -54,7 +55,6 @@
 
   .sampleTitle {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: "BebasNeue Bold";
@@ -67,6 +67,7 @@
     height: 40px;
     text-align: center;
     margin-bottom: 10px;
+    padding-top: 2px;
 
     p {
       height: 60%;
@@ -92,7 +93,6 @@
 
   .sampleTitle {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: "BebasNeue Bold";
@@ -105,6 +105,7 @@
     height: 30px;
     text-align: center;
     margin-bottom: 10px;
+    padding-top: 2px;
 
     p {
       height: 60%;
