@@ -56,7 +56,7 @@ $logo-img: url('../../images/logo-me-big.png');
   display: inline-block;
   height: 250px;
   width: 80%;
-  margin-top: 40vh;
+  margin-top: 43vh;
   margin-left: 0;
   font-size: 9vw;
   // max-height: 300px;
@@ -104,27 +104,6 @@ $logo-img: url('../../images/logo-me-big.png');
     transition-duration: .4s;
 }
 
-// @media only screen and (max-width: 900px) {
-//
-//   .header_parallax {
-//     background-size: 25vw;
-//   }
-//
-//   .nameBox {
-//     display: inline-block;
-//     margin-left: auto;
-//     width: 280px;
-//     line-height: 60pt;
-//   }
-//
-//   .subBox {
-//     line-height: 20pt;
-//     margin-top: 43vh;
-//     width: 220px;
-//   }
-// }
-
-//
 @media only screen and (max-width: 767px) {
 
   .header_parallax {
@@ -201,3 +180,24 @@ $logo-img: url('../../images/logo-me-big.png');
     font-size: 9vw;
   }
 }
+
+
+// @media only screen and (max-width: 900px) {
+//
+//   .header_parallax {
+//     background-size: 25vw;
+//   }
+//
+//   .nameBox {
+//     display: inline-block;
+//     margin-left: auto;
+//     width: 280px;
+//     line-height: 60pt;
+//   }
+//
+//   .subBox {
+//     line-height: 20pt;
+//     margin-top: 43vh;
+//     width: 220px;
+//   }
+// }

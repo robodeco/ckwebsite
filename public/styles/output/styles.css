@@ -29,6 +29,12 @@
   margin: 0;
 }
 
+@media only screen and (max-width: 1050px), screen and (max-height: 1400px) {
+  .abmeWrapper {
+    min-height: 75vh;
+    margin-bottom: 25px;
+  }
+}
 @media only screen and (min-width: 1000px) {
   #mePicHolder {
     background-size: 400px;
@@ -110,6 +116,7 @@ img {
 
 #codHeader p {
   margin-top: 15px;
+  padding: 2px;
 }
 
 #codHRow {
@@ -156,6 +163,7 @@ img {
   text-align: center;
   color: white;
   overflow: hidden;
+  padding: 5px;
 }
 .contactWrapper .sectionTitle {
   margin-bottom: 0;
@@ -199,8 +207,37 @@ img {
   margin-top: 35px;
 }
 
+@media only screen and (max-width: 1050px), screen and (max-height: 1400px) {
+  .contactWrapper {
+    min-height: 55vh;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .contactWrapper {
+    height: 100vh;
+  }
+
+  .contTitle {
+    font-size: 10pt;
+  }
+
+  .contLiPad {
+    margin-top: 10px;
+  }
+
+  .coSoonTitle {
+    font-size: 10pt;
+  }
+
+  .coSoonBox {
+    min-width: 80%;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 35px;
+  }
+}
 .footer {
-  height: 120px;
+  min-height: 120px;
   background-color: #F5CF1A;
   margin-left: 0;
   text-align: center;
@@ -257,7 +294,7 @@ img {
   display: inline-block;
   height: 250px;
   width: 80%;
-  margin-top: 40vh;
+  margin-top: 43vh;
   margin-left: 0;
   font-size: 9vw;
   text-align: center;
@@ -442,6 +479,11 @@ img {
     margin-top: 0px;
   }
 }
+@media only screen and (max-width: 1050px), screen and (max-height: 1400px) {
+  .motionGraphicsWrapper {
+    min-height: 50vh;
+  }
+}
 .navbarSticky {
   background-color: black;
   color: white;
@@ -493,10 +535,18 @@ img {
   .navChild {
     font-size: 9pt;
   }
+
+  .pageJump {
+    padding: 10px 12px 10px 12px;
+  }
 }
 @media only screen and (max-width: 500px) {
   .navChild {
     font-size: 7.5pt;
+  }
+
+  .pageJump {
+    padding: 10px 5px 10px 5px;
   }
 }
 .btnWrap {
@@ -537,8 +587,56 @@ img {
   margin: auto;
 }
 
+@media only screen and (min-height: 1400px) {
+  .scrollBtn {
+    width: 300px;
+    height: 200px;
+    background-size: 300px;
+  }
+}
+@media only screen and (min-height: 1600px) {
+  .buttonParent {
+    margin-top: 15vh;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .scrollBtn {
+    margin-top: -5vh;
+  }
+
+  .scrollBtn {
+    width: 300px;
+    height: 200px;
+    background-size: 300px;
+  }
+}
+@media only screen and (max-height: 1600px) {
+  .buttonParent {
+    margin-top: 20vh;
+  }
+}
+@media only screen and (max-height: 1500px) {
+  .buttonParent {
+    margin-top: 15vh;
+  }
+}
+@media only screen and (max-height: 1400px) {
+  .buttonParent {
+    margin-top: 25vh;
+  }
+}
+@media only screen and (max-height: 1300px) {
+  .buttonParent {
+    margin-top: 10vw;
+  }
+}
+@media only screen and (max-height: 1000px) {
+  .buttonParent {
+    margin-top: 10vh;
+  }
+}
 @media only screen and (max-width: 767px) {
-  .scrlDwn {
+  .scrollButton {
     display: none;
   }
 
@@ -787,6 +885,10 @@ img {
   }
 
   .video-playerWrap_mg {
+    max-width: 500px;
+  }
+
+  .video-playerWrap_mg--skinny {
     max-width: 500px;
   }
 }
