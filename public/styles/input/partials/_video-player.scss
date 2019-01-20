@@ -3,17 +3,25 @@
 }
 
 .video-playerWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   max-width: 480px;
   padding: 15px;
   width: 100%;
   min-height: 400px;
-  display: inline-block;
   margin: 15px auto auto auto;
   background-color: #FCEFBB;
   // background-color: #F7E492;
   border-radius: 15px;
+  text-align: center;
 
   .sampleTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     font-family: "BebasNeue Bold";
     width: 100%;
     font-size: 22pt;
@@ -22,29 +30,36 @@
     background-color: #F5CF1A;
     color: black;
     height: 40px;
-    line-height: 46px;
     margin-bottom: 10px;
 
     p {
-      height: 100%;
-      text-align: center;
+      height: 60%;
+      width: 100%;
     }
   }
 }
 
 .video-playerWrap_mg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   // max-width: 480px;
   padding: 15px;
   width: 100%;
   min-height: 300px;
-  display: inline-block;
   margin: 15px auto auto auto;
   background-color: #FCEFBB;
   border-radius: 15px;
 
   .sampleTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     font-family: "BebasNeue Bold";
-    font-size: 25pt;
+    font-size: 22pt;
+    width: 100%;
     border-radius: 10px;
     letter-spacing: 1px;
     background-color: #F5CF1A;
@@ -52,7 +67,10 @@
     height: 40px;
     text-align: center;
     margin-bottom: 10px;
-    margin-top: 10px;
+
+    p {
+      height: 60%;
+    }
   }
 
   .samplePar {
@@ -68,22 +86,29 @@
   padding: 15px;
   width: 100%;
   min-height: 300px;
-  display: inline-block;
   margin: 15px auto auto auto;
   background-color: #FCEFBB;
   border-radius: 15px;
 
   .sampleTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     font-family: "BebasNeue Bold";
     font-size: 17.5pt;
+    width: 100%;
     border-radius: 10px;
     letter-spacing: 1px;
     background-color: #F5CF1A;
     color: black;
     height: 30px;
     text-align: center;
-    padding-top: 1px;
     margin-bottom: 10px;
+
+    p {
+      height: 60%;
+    }
   }
 
   .samplePar {
