@@ -52,10 +52,18 @@ $brandColorPrimary: #F5CF1A;
   .navChild {
     font-size: 9pt;
   }
+
+  .pageJump {
+    padding: 10px 12px 10px 12px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   .navChild {
     font-size: 7.5pt;
+  }
+
+  .pageJump {
+    padding: 10px 5px 10px 5px;
   }
 }
