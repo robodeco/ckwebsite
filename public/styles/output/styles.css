@@ -574,7 +574,6 @@ img {
 }
 .video-playerWrap .sampleTitle {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: "BebasNeue Bold";
@@ -584,8 +583,10 @@ img {
   letter-spacing: 1px;
   background-color: #F5CF1A;
   color: black;
-  height: 40px;
+  max-height: 42px;
   margin-bottom: 10px;
+  margin-top: 0;
+  padding-top: 2px;
 }
 .video-playerWrap .sampleTitle p {
   height: 60%;
@@ -606,7 +607,6 @@ img {
 }
 .video-playerWrap_mg .sampleTitle {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: "BebasNeue Bold";
@@ -619,6 +619,7 @@ img {
   height: 40px;
   text-align: center;
   margin-bottom: 10px;
+  padding-top: 2px;
 }
 .video-playerWrap_mg .sampleTitle p {
   height: 60%;
@@ -640,7 +641,6 @@ img {
 }
 .video-playerWrap_mg--skinny .sampleTitle {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: "BebasNeue Bold";
@@ -653,6 +653,7 @@ img {
   height: 30px;
   text-align: center;
   margin-bottom: 10px;
+  padding-top: 2px;
 }
 .video-playerWrap_mg--skinny .sampleTitle p {
   height: 60%;
