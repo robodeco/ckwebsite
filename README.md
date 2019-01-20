@@ -12,7 +12,6 @@ I would like to stress that this is very much a work in progress, and I am still
 <p>list made with ascending priority</p>
 <ol>
  <li>CSS/HTML reset</li>
- <li>Fix some small layouting issues</li>
  <li>Hamburger Menu</li>
  <li>Add buttons in coding section to take user to unfinished project repos at github</li>
  <li>Fix spacing between video rows when screen is resized</li>
@@ -26,10 +25,10 @@ I would like to stress that this is very much a work in progress, and I am still
  
 **Latest Changes 01/18/19**
 <ol>
+ <li> Bug Update: The issue with the button and certain line-heights has less to do with my code and more to do with the type of system used to view it. Certain line-heights and the centering of the down buttons are centered on macs, but not on PCs. Looking into this.</li>
  <li>Total UI overhaul, with the Motion Graphics section having the largest update</li>
  <li>Bug Fixed: Arrow Glyphicons from bootstrap carousel hovering over navbar upon scrolling</li>
  <li>Bootstrap carousel fonts made responsive. Alternative to the carousel may be needed, or at least be consolidated, as it has a tendency to bump content on the page when the screen width changes, which is bad practice.</li>
- <li>Down button on splash page made largely responsive, though issues are still had with bigger screens from a laptop</li>
 </ol>
 
 **Changes 01/17/19**
