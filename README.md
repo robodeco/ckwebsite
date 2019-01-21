@@ -20,7 +20,7 @@ I would like to stress that this is very much a work in progress, and I am still
  <li>Look at cloudinary file quality; possibly pursue other video players</li>
  <li>Advanced animated graphics and transitions</li>
  <li>Email-sending ability and whether its possible without Node.js</li>
- <li>Folder structure cleanup, bug-testing, cross-browser testing, and findal UX testing</li>
+ <li>Folder structure cleanup, bug-testing, cross-browser testing, and final UX testing</li>
 </ol>
  
 **Latest Changes 01/18/19**
