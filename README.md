@@ -23,7 +23,12 @@ I would like to stress that this is very much a work in progress, and I am still
  <li>Folder structure cleanup, bug-testing, cross-browser testing, and final UX testing</li>
 </ol>
  
-**Latest Changes 01/18/19**
+**Latest Changes 01/29/19**
+<ol>
+ <li>Cloudinary videos no longer showing on webpage. API call limit is unlimited, so its a different issue. Looking into this, and potentially shifting to a new video player in the interim.</li>
+ </ol>
+ 
+**Changes 01/18/19**
 <ol>
  <li> Bug Update: The issue with the button and certain line-heights has less to do with my code and more to do with the type of system used to view it. Certain line-heights and the centering of the down buttons are centered on macs, but not on PCs. Looking into this.</li>
  <li>Total UI overhaul, with the Motion Graphics section having the largest update</li>
