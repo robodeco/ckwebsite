@@ -26,6 +26,7 @@ I would like to stress that this is very much a work in progress, and I am still
 **Latest Changes 01/29/19**
 <ol>
  <li>Cloudinary videos no longer showing on webpage. API call limit is unlimited, so its a different issue. Looking into this, and potentially shifting to a new video player in the interim.</li>
+<li>UPDATE: There have been no changes to the documentation. issue may be that the associated account has exceeded monthly alloted bandwidth. Switching to new video player.</li>
  </ol>
  
 **Changes 01/18/19**
