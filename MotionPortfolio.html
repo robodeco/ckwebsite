@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christopher Katalinas — Motion Graphics</title>
+        <!-- fonts -->
+        <!-- league spartan -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+        <!-- lato -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!--  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/accessible_styles.css">
+    <link rel="stylesheet" href="./styles/styles_v2.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./script/script.js"></script>
+</head>
+
+
+<body class="motionPort">
+    <div class="screenBlocker"></div>
+    <nav class="navbar navbar-expand-sm p-ib-2">
+        <div class="container">
+            <button class="navbar-toggler m-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="AboutMe.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="PrintPortfolio.html">Print Design Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Motion Graphics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="GWPortfolio.html">GW Coding Demos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="CamPortfolio.html">Cambium Portfolio</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link" href="WrittenWork.html">Written Work</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="mainContainer container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 leftMainContent pb-block-4 pt-block-0 pe-inline-2 order-2 order-sm-2 order-md-2 order-lg-1">
+                <div class="vidContainer">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HU318v9nB9Q?si=YBCr929uqRMpnZLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 rightMainContent ps-inline-2 order-1 order-sm-1 order-md-1 order-lg-2">
+                <h1>Motion Graphics</h1>
+                <p>These compositions were primarily using Adobe After Effects</p>
+                <p>Click one of the "watch" buttons to view its associated project <span class="containerDirection">on the left</span>.</p>
+
+                <div class="portRow_container pt-block-3 row">
+                    <div class="col">
+                        <h4>NLC: City of the Future</h4>
+                        <p>A commission from the non-profit, National League of Cities, calling attention to the issues modern cities face.
+                        </p>
+                        <div class="psuedoWrapper">
+                            <button class="btn btn-secondary viewNow active" data-path="https://www.youtube.com/embed/HU318v9nB9Q?si=YBCr929uqRMpnZLI">Watch</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="portRow_container pt-block-3 row">
+                    <div class="col">
+                        <h4>LIDL Promotions</h4>
+                        <p>Promotional graphics that were shown on monitors in each LIDL US location.</p>
+
+                        <div class="psuedoWrapper mb-block-1">
+                            <button class="btn btn-secondary viewNow" data-path="https://www.youtube.com/embed/7hQfhZ9K9Xo?si=yCzA37n_vq-Z2EBr">Watch First Example</button>
+                        </div>
+                        <div class="psuedoWrapper mb-block-1">
+                            <button class="btn btn-secondary viewNow" data-path="https://www.youtube.com/embed/2sx53LgBxVo?si=OVeJ3JZM0bV8uBDG">Watch Second Example</button>
+                        </div>
+                        <div class="psuedoWrapper">
+                            <button class="btn btn-secondary viewNow" data-path="https://www.youtube.com/embed/yQMcN4psen8?si=uJmiEUZPxAb4-QD5">Watch Third Example</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="pe-2">
+        <div class="text-end">
+            Copyright © <span class="currentYear"></span> by Christopher Katalinas. All Rights Reserved
+        </div>
+      </footer>
+</body>
+</html>
