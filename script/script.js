@@ -50,11 +50,6 @@ $(document).ready(function () {
             }, 500 );
     });
 
-    // fix for faulty navbar collapse button on every page but AboutMe page
-    $("body:not(.aboutMe) .navbar-toggler").on("click", function() {
-        $(".navbar-collapse").toggle("show");
-    })
-
 
     /**========================================================================
      *                           PRINT PORTFOLIO PAGE
