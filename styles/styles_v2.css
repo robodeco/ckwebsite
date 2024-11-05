@@ -562,8 +562,7 @@ footer {
 .pageTransitionOut {
 
     * {
-        animation: fadeOut .5s ease-in-out;
-        animation-fill-mode: forwards;
+        animation: fadeOut 1s ease-in-out;
     }
     /* aboutMe page */
     /* .topWave {
