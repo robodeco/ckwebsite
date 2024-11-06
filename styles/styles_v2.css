@@ -273,9 +273,16 @@ footer {
 }
 .resBtnContainer .dropdown-menu {
     background-color: var(--purple-mid);
+    padding: .5rem;
 
     a {
         color: #fff;
+    }
+
+    li:last-child {
+        border-top: 1px solid var(--yellow);
+        margin-block-start: .5rem;
+        padding-block-start: .5rem;
     }
 
     .dropdown-item:focus, 
