@@ -235,6 +235,8 @@ body:not(.aboutMe) {
 
 footer {
     position: fixed;
+    display: flex;
+    flex-direction: row;
     bottom: 0;
     right: 0;
     width: 100%;
@@ -244,7 +246,35 @@ footer {
     background-color: #262626;
     color: #fff;
     z-index: 998;
+    align-items: center;
+
+    .footer-nav {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin-bottom: 0;
+    }
+
+    .text-end {
+        margin-left: auto;
+    }
+
+    .nav-item {
+        margin-right: 1rem;
+    }
+
+    .nav-link:hover {
+        color: var(--yellow);
+    }
+    
+    .nav-link:focus,
+    .nav-link.active:focus {
+        color: var(--yellow);
+        outline-color: #fff !important;
+    }
 }
+
+
 
 .bgWave {
     position: fixed;
@@ -571,26 +601,6 @@ footer {
     * {
         animation: fadeOut 1s ease-in-out;
     }
-    /* aboutMe page */
-    /* .topWave {
-        animation: topSlide_rev .8s ease-in-out;
-        animation-fill-mode: forwards;
-    }
-    .midWave {
-        animation: midSlide_rev .8s ease-in-out;
-        animation-delay: .1s;
-        animation-fill-mode: forwards;
-    }
-    .backWave {
-        animation: backSlide_rev .8s ease-in-out;
-        animation-delay: .3s;
-        animation-fill-mode: forwards;
-    } */
-
-
-    /* .aboutMeSection {
-        animation: infoSlide_rev 1s ease-in-out;
-    } */
 }
 
 .screenBlocker {
@@ -611,13 +621,9 @@ footer {
         min-width: 100%;
         padding: 2rem;
     }
-    /* .modal-content {
-        height: calc(100% - 5rem);
-        width: 100dvh;
-    } */
-
-    
 }
+
+
 
 /* print portfolio page animations */
 @keyframes fadeIn {
