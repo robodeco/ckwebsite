@@ -266,7 +266,7 @@ footer {
     .nav-link:hover {
         color: var(--yellow);
     }
-    
+
     .nav-link:focus,
     .nav-link.active:focus {
         color: var(--yellow);
@@ -874,6 +874,10 @@ footer {
     .aboutMe .leftMainContent .imgContainer {
         width: 350px !important;
         height: 350px !important;
+    }
+
+    footer .footer-nav {
+        display: none;
     }
 
     /* GW Bootcamp page */
