@@ -154,6 +154,10 @@ body:not(.aboutMe) {
     border-radius: 7.5px;
 }
 
+.aboutMe .navbar-expand-sm .navbar-nav {
+    background-color: var(--purple-lightest);
+}
+
 .twoTransition {
     background: blue;
     color: white;
@@ -745,6 +749,10 @@ footer {
         padding: 1rem;
         border-radius: 6px;
         max-width: 100%;
+    }
+
+    .aboutMe .navbar-expand-sm .navbar-nav {
+        background-color: initial;
     }
 }
 @media only screen and (max-width: 1355px) {
